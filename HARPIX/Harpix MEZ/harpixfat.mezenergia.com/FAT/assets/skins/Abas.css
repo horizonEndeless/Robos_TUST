@@ -1,0 +1,485 @@
+/* -------------------------------------------------*/
+/* ---------->>> TELA DE LOGIN COSMO <<<-----------*/
+/* -------------------------------------------------*/
+#btnLogin,
+#btnLogin button {
+  border-top-left-radius: 63%;
+  border-bottom-left-radius: 63%;
+  display: block !important;
+  box-shadow: none !important;
+}
+
+#formLogin {
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  animation: fade 1000ms;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 576px) {
+  #formLogin {
+    height: 481px !important;
+    width: 617px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #formLogin {
+    top: 4rem !important;
+    width: 95% !important;
+    height: 80% !important;
+  }
+}
+
+/**
+* @Media Queries -TELA DE LOGIN
+*/
+
+@media (max-width: 575.98px) {
+  #btnLogin,
+  #btnLogin button {
+    display: block !important;
+    box-shadow: none !important;
+    border-radius: 0.25rem !important;
+    height: 80px !important;
+  }
+
+  #topoLogin {
+    width: 80% !important;
+    margin: auto;
+  }
+}
+
+/* -------------------------------------------------*/
+/* ---------->>> TELA PRINCIPAL COSMO <<<-----------*/
+/* -------------------------------------------------*/
+
+#toast-container-br {
+  bottom: 5rem !important;
+}
+
+#Aba {
+  position: fixed !important;
+  width: 79vw !important;
+  height: calc(100% - 81px) !important;
+  margin: auto !important;
+  left: 20.5% !important;
+}
+
+/* DEFINIÇÕES DE CORES
+//////////////////////////////////////*/
+
+#icons-content,
+#iconsPrincipal div.navbar-header {
+  background-color: var(--light);
+}
+
+#iconsPrincipal {
+  background-color: transparent !important;
+}
+
+a:not(.page-link):not(.fc-event) {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+/* ------------------------------------------------*/
+/* ---------->>> ANIMAÇÃO DOS ICONES <<<-----------*/
+/* ------------------------------------------------*/
+
+#atalhosListaContainer i:hover,
+#icons i:hover {
+  filter: drop-shadow(0px 1px 2px rgb(184, 184, 184));
+  transform: translateY(-3px);
+}
+
+/* -----------------------------------------------------*/
+/* ---------->>> MENU ICONS - MENU USERS  <<<-----------*/
+/*          OPÇÕES DO SITEMA / MENU DO USUARIO
+/* -----------------------------------------------------*/
+
+#icons  {
+  width: initial !important;
+}
+
+#icons .nav-link {
+  flex-direction: column;
+}
+
+#icons .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' focusable='false' data-prefix='fas' data-icon='grip-horizontal' class='svg-inline--fa fa-grip-horizontal fa-w-14' role='img' viewBox='0 0 448 512'%3E%3Cpath fill='currentColor' d='M96 288H32c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h64c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32zm160 0h-64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h64c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32zm160 0h-64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h64c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32zM96 96H32c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h64c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32zm160 0h-64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h64c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32zm160 0h-64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h64c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32z'/%3E%3C/svg%3E") !important;
+}
+
+#icons .navbar-toggler {
+  width: 4rem;
+  height: 2.8rem;
+}
+
+#icons .navbar-header {
+  border-radius: 0.25rem;
+  margin: auto;
+}
+
+#icons-content button {
+  padding: 0.3rem !important;
+  font-size: 0.9rem !important;
+}
+
+#icons-content {
+  position: absolute;
+  width: 6rem !important;
+  top: 3.6rem !important;
+}
+
+#iconsPrincipal {
+  justify-content: center !important;
+}
+
+#iconsPrincipal a.nav-link i.menu-icon {
+  font-size: 2rem;
+  margin: 0.3rem;
+  display: block;
+  text-align: center;
+}
+
+#iconsPrincipal .menu-item-text,
+#atalhosListaContainer .menu-item-text {
+  white-space: normal !important;
+  text-align: center;
+}
+
+/* OPÇÕES DO SISTEMA - MENU
+//////////////////////////////////////*/
+
+#userImage img{
+  border-radius: 50% !important;
+}
+
+#optionsUser {
+  width: auto !important;
+  left: 0 !important;
+  position: relative;
+  top: 5rem !important;
+}
+
+#IconButtonContainer {
+  left: unset !important;
+  right: 7.2rem !important;
+}
+
+#optionsUserPrincipal {
+  display: none;
+  border-radius: 0.3rem;
+}
+
+#optionsUserPrincipal .menu-icon {
+  float: left;
+}
+
+.user-button {
+  top: 0 !important;
+  min-height: unset !important;
+  height: 80px !important;
+}
+
+#icons ul {
+  max-height: 80vh !important;
+  overflow: auto !important;
+  flex-wrap: initial !important;
+}
+
+.user-button:hover #optionsUserPrincipal {
+  display: block !important;
+  width: 14rem;
+  float: right;
+}
+
+#optionsUserPrincipal li {
+  width: 100%;
+  text-align: center;
+}
+
+#optionsUserPrincipal a {
+  padding-bottom: 15px !important;
+  padding-top: 15px !important;
+  text-decoration: none;
+  border-radius: 0.3rem;
+}
+
+#optionsUserPrincipal a {
+  padding-left: 1.5rem;
+}
+
+/**
+* Pesonalização da Barra de Rolagem - MENU ICONS
+*/
+
+#icons ul::-webkit-scrollbar-thumb {
+  background-color: #dad7d7;
+}
+
+#icons ul::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+/* -------------------------------------------------*/
+/* ---------->>>  ATALHOS DO SISTEMA  <<<-----------*/
+/*            FAB - FLOAT ACTION BUTTON 
+/* -------------------------------------------------*/
+
+@keyframes fadeLista {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#atalhosListaContainer {
+  width: 4rem !important;
+  max-height: 65% !important;
+  min-height: auto !important;
+  left: unset !important;
+  top: inherit !important;
+  bottom: 5.5rem !important;
+  right: 1.5rem !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  background: transparent !important;
+  z-index: 99999999 !important;
+  padding: 0 !important;
+}
+
+#atalhosListaContainer a {
+  margin-bottom: 1rem;
+  animation: fadeLista 200ms ease-out;
+  animation-fill-mode: both;
+}
+
+#atalhosListaContainer a .menu-item-text {
+  font-size: 0.95rem;
+  max-width: 100% !important;
+}
+
+#atalhosFAB {
+  width: 64px !important;
+  height: 64px !important;
+  top: inherit !important;
+  bottom: 1.5rem;
+  left: unset !important;
+  right: -2.7rem !important;
+  z-index: 100000000 !important; 
+}
+
+#atalhosFAB:focus-within {
+  width: 64px !important;
+  height: 64px !important;
+  top: inherit !important;
+  bottom: 1.5rem;
+  left: unset !important;
+  right: 1.5rem !important;
+  z-index: 100000000 !important;   
+  transition: right 500ms ease-in-out;
+}
+
+#atalhosFAB .fa-chevron-left{
+    right: 45px;
+    bottom: 24px;
+    position: absolute;
+}
+
+#atalhosFAB button[aria-expanded="true"] .fa-chevron-left, 
+#atalhosFAB:focus-within .fa-chevron-left{
+  display: none;
+}
+
+#atalhosListaContainer .menu-shortcut:focus-within{
+  filter: drop-shadow(0px 8px 2px rgb(184, 184, 184));
+}
+
+#atalhosFAB button {
+  box-shadow: none !important;
+}
+
+#atalhosFAB button[aria-expanded="true"] .fa-reply-all {
+  display: none;
+}
+
+#atalhosFAB button[aria-expanded="false"] .fa-times {
+  display: none;
+}
+
+#atalhosFAB + [data-original-title="HTMLButton"] {
+  display: none !important;
+}
+
+#atalhosListaContainer a:nth-child(2n + 1) {
+  animation-delay: 50ms;
+}
+
+#atalhosListaContainer a:nth-child(2n) {
+  animation-delay: 150ms;
+}
+
+.backdrop-shortcut {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff; 
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.backdrop-shortcut.show {
+  opacity: 0.85;
+  pointer-events: all;
+}
+
+/**
+* Pesonalização da Barra de Rolagem - ATALHOS
+*/
+
+#atalhosListaContainer::-webkit-scrollbar-thumb {
+  background-color: #dad7d7;
+}
+
+#atalhosListaContainer::-webkit-scrollbar {
+  width: 2px !important;
+}
+
+/* ---------------------------------------------------*/
+/* ---------->>> COSMO MENU LATERAL <<<---------------*/
+/* ---------------------------------------------------*/
+
+#MenuLateralCosmoPrincipal,
+#MenuLateralCosmo {
+  min-height: 75vh !important;
+  width: 20vw !important;
+}
+
+#MenuLateralCosmo a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/**
+* @Media Queries -TELA PRINCIPAL
+*/
+
+@media (max-width: 575.98px) {
+  #MenuLateralCosmoPrincipal,
+  #MenuLateralCosmo {
+    width: auto !important;
+  }
+
+  #atalhosListaContainer .menu-item-text {
+    max-width: unset !important;
+  }
+
+  #MenuLateralCosmo,
+  .menu-collapse-button {
+    top: 0.8rem !important;
+  }
+
+  .user-button {
+    width: 40% !important;
+    margin: auto !important;
+  }
+
+  #optionsUser {
+    left: 1.5rem !important;
+    top: 5.1rem !important;
+  }
+
+  #userImageContainer::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: white;
+    content: "\f0dd";
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 40px !important;
+  }
+
+  #userName{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  #userImage{
+    margin-right: 0 !important;
+    margin-left: -21px !important;
+    width: 44% !important;
+  }
+
+  #userName div {
+    justify-content: start !important;
+  }
+
+  #userImageContainer{
+    width: 36% !important;
+  }
+
+  #userImageContainer,
+  .user-button {
+    margin: auto;
+    border: none !important;
+    padding: 0rem !important;
+    top: -0.2rem !important;
+  }
+
+  #optionsUserPrincipal .collapse:not(.show) {
+    display: block !important;
+  }
+
+  #optionsUserPrincipal .navbar-header {
+    display: none !important;
+  }
+
+  #IconButtonContainer {
+    top: 0.8rem !important;
+    position: fixed !important;
+    width: 20% !important;
+    right: 0.9rem !important;
+  }
+
+  #icons ul {
+    max-height: 70vh !important;
+  }
+
+  #icons .navbar-toggler {
+    width: 3.5rem !important;
+    height: 2.5rem !important;
+  }
+
+  #Aba {
+    width: 96vw !important;
+    top: 82px !important;
+    height: calc(100% - 81px) !important;
+    position: fixed !important;
+    left: 2vw !important;
+  }
+
+  #Aba .nav-item {
+    height: auto !important;
+  }
+}

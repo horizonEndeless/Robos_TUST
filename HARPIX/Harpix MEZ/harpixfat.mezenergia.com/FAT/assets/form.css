@@ -1,0 +1,1292 @@
+/* ------------- *
+ *  Utilitários  *
+ * ------------- */
+
+.center-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.center-vertically {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-centered {
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.border-inset {
+  border-style: inset !important;
+}
+
+.border-outset {
+  border-style: outset !important;
+}
+
+.break-word {
+  word-break: break-word;
+}
+
+/* ------------- *
+ *  SweetAlert
+ * ------------- */
+
+ .swal2-container {
+   z-index: 10000003 !important;
+ }
+
+/* ------------- *
+ *   Formulário  *
+ * ------------- */
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999999;
+  background: #fff;
+}
+
+#loading .spinner-border {
+  position: absolute;
+  font-size: 14px;
+  line-height: normal;
+  width: 48px;
+  height: 48px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.form-overlay {
+  display: block;
+  position: absolute;
+  z-index: 99998;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
+}
+
+.form-overlay.disabled {
+  pointer-events: none;
+  display: none;
+}
+
+.fancybox-container, .imagebox-magnifier {
+  z-index: 1000001 !important;
+}
+
+.form-group,
+.form-menu,
+.form-action {
+  position: absolute;
+}
+
+.form-group .input-group.input-group-legacy .input-group-append {
+  position: absolute;
+  height: 100%;
+  left: 100%;
+}
+
+@media (min-width: 576px) {
+  /* -------------- *
+   *   Utilitário   *
+   * -------------- */
+
+   .overflow-sm-hidden {
+    /* NOTA: Se nas versões mais novas do Bootstrap essa classe
+             for implementada, deverá ser removida daqui. */
+    overflow: hidden !important;
+  }
+
+  .mw-sm-50 {
+    /* NOTA: Se nas versões mais novas do Bootstrap essa classe
+             for implementada, deverá ser removida daqui. */
+    max-width: 50% !important;
+  }
+
+
+  /* -------------- *
+   *   Formulário   *
+   * -------------- */
+
+  .form-group,
+  .form-label {
+    margin-bottom: 0;
+  }
+}
+
+.input-group-append,
+.input-group-prepend {
+  max-height: 100%;
+}
+
+.input-group-text.fas {
+  padding: 0 0.5rem;
+  color: #787878;
+}
+
+.form-label {
+  position: absolute;
+  font-size: 0.9rem;
+  z-index: 1;
+}
+
+.form-label.left,
+.form-label.right {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-label.left {
+  height: 100%;
+  text-align: right;
+  top: 0;
+  white-space: nowrap;
+}
+
+.form-label.right {
+  height: 100%;
+  text-align: left;
+  top: 0;
+  white-space: nowrap;
+}
+
+.form-group label,
+.form-group option,
+.form-action img,
+.form-group img,
+.table *:not(input) {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.form-group label:not(.text-break):not(.col-form-label):not(.right):not(.left),
+button,
+select option,
+.responsive-label {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ------------- *
+ * Full Calendar *
+ * ------------- */
+
+.fc-view.fc-timeGrid-view .fc-row {
+  border-right-width: 1px;
+  margin-right: 16px;
+}
+
+.fc-popover.fc-more-popover {
+  max-height: 100%;
+}
+
+.fc-popover.fc-more-popover .fc-body {
+  overflow: auto;
+}
+
+.fc-time-grid-event.fc-short .fc-time:after {
+  content: "-" !important;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+}
+
+/* ------------- *
+ *    Selects    *
+ * ------------- */
+
+.custom-select .placeholder {
+  color: grey;
+}
+
+.form-group .custom-select {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.custom-checkbox .custom-control-label .custom-radio .custom-control-label {
+  height: 100%;
+  width: 100%;
+}
+
+.custom-checkbox .custom-control-label label,
+.custom-radio .custom-control-label label {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.custom-control.disabled {
+  pointer-events: none;
+}
+
+/* ------------- *
+ *    Subpages   *
+ * ------------- */
+
+.page-frame {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  border: 0;
+  display: block;
+}
+
+[webrun-type="HTMLTabContainer"] [webrun-type="HTMLGroupBox"][webrun-tab-component] > div {
+  -ms-flex: 1 1 auto!important;
+  flex: 1 1 auto!important;
+}
+
+/* ------------- *
+ *      Grid     *
+ * ------------- */
+
+.grid .navbar {
+  display: none !important;
+}
+
+/* Ajuste do form-group dentro das linhas da grade */
+.gridSelected .form-group,
+.gridSelectedAltCol .form-group,
+.gridSelectedOver .form-group,
+.gridSelectedOverAltCol .form-group,
+.gridSelectedDark .form-group,
+.gridSelectedOverDark .form-group,
+.gridSelectedOverDarkAltCol .form-group,
+.gridSelectedDarkAltCol .form-group,
+.specialCol .form-group,
+.gridAltCol .form-group,
+.gridAltColOver .form-group,
+.grid .form-group,
+.gridOver .form-group,
+.gridOverAltCol .form-group,
+.gridOverDark .form-group,
+.gridDarkAltCol .form-group,
+.gridOverDarkAltCol .form-group,
+.gridDark .form-group {
+  margin-bottom: 0;
+  width: 100% !important;
+}
+
+/* Remoção da margem do menu de contexto das colunas da Grade */
+.grid tr[role="separator"] hr {
+  margin: 0 !important;
+}
+
+/* ------------- *
+ *      Memo     *
+ * ------------- */
+
+[webrun-type="HTMLMemo"] textarea {
+  resize: none;
+}
+
+.trumbowyg-box {
+  min-height: 100% !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  margin: 0 !important;
+}
+
+.trumbowyg-editor,
+.trumbowyg-textarea {
+  height: 100% !important;
+}
+
+.trumbowyg-box .trumbowyg-editor {
+  min-height: auto;
+}
+
+.trumbowyg-editor.trumbowyg-editor-visible {
+  border: 0 !important;
+}
+
+.trumbowyg-editor,
+.trumbowyg-textarea {
+  overflow: auto;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0.5rem 1rem !important;
+}
+
+.trumbowyg-editor p {
+  margin-bottom: 0;
+}
+
+.trumbowyg-button-pane {
+  background: transparent !important;
+  border-bottom: 1px solid #ced4da !important;
+  height: auto !important;
+  min-height: auto !important;
+}
+
+.trumbowyg-editor-visible .trumbowyg-textarea {
+  display: none !important;
+}
+
+/* ---------------- *
+ *  Botão Genérico  *
+ * ---------------- */
+
+.generic-btn {
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 0;
+}
+
+.generic-btn:hover,
+.generic-btn:focus {
+  opacity: 0.8;
+  outline: 0;
+}
+
+.generic-btn.disabled {
+  cursor: default;
+  opacity: 0.2;
+}
+
+/* ---------------- *
+ *      Lookup      *
+ * ---------------- */
+
+.lookup.lookup-styled {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  padding: 0;
+}
+
+.lookup.lookup-styled.disabled,
+.lookup.lookup-styled:disabled,
+.lookup.lookup-styled[readonly] {
+  background-color: #e9ecef;
+}
+
+.lookup.lookup-styled:focus-within {
+  border: 1px solid #80bdff;
+  border-radius: 0.25rem;
+  border-right-color: rgb(128, 189, 255);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  outline: 0;
+}
+
+.lookup.lookup-styled .form-control,
+.lookup.lookup-styled .input-group-append {
+  border: 0 !important;
+}
+
+.lookup.lookup-styled .form-control:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+  outline: 0;
+}
+
+.lookup.lookup-styled .input-group-append {
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+    no-repeat right 0.75rem center/8px 10px;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  width: 1.9rem;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.lookup.lookup-styled .input-group-append.disabled {
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+    no-repeat right 0.75rem center/8px 10px #e9ecef;
+}
+
+#lookupInput li:not(.active):hover {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+/* ------------- *
+ *   Image Box   *
+ * ------------- */
+
+.imagebox-magnifier {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+
+.imagebox-magnifier.inside,
+.imagebox-magnifier.outside {
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0px 0px 30px -9px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 0px 30px -9px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 30px -9px rgba(0, 0, 0, 0.9);
+}
+
+.imagebox-magnifier.pointer {
+  border: 1px solid #000;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.imagebox-magnifier.inside {
+  border-radius: 50%;
+  min-width: 6rem;
+  min-height: 6rem;
+}
+
+.imagebox-magnifier.outside {
+  background-color: #fff;
+}
+
+/* ------------- *
+ *   Navegação   *
+ * ------------- */
+
+.navbar.disabled .generic-btn:not(.self-enabled) {
+  cursor: default;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.navbar.navbar-light .nav-item:not(.disabled) .nav-link:hover {
+  color: var(--primary);
+}
+
+/* ------------- *
+ *     Modals    *
+ * ------------- */
+
+.modal {
+  z-index: 99999999;
+}
+.modal-backdrop {
+  z-index: 9999999;
+}
+
+/* ------------- *
+ *    Tooltip    *
+ * ------------- */
+
+.tooltip {
+  z-index: 10000001;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+
+.tooltip-inner {
+  max-width: inherit;
+  text-align: justify;
+}
+/* ------------- *
+ *    Popover    *
+ * ------------- */
+
+
+.popover {
+  z-index: 10000002;
+}
+
+/* ------------- *
+ *     Toasts    *
+ * ------------- */
+
+.toast-container {
+  z-index: 999999;
+}
+
+.toast-container .toast {
+  min-width: 12rem;
+  pointer-events: all;
+}
+
+.toast-container .toast strong,
+.toast-container .toast small {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.toast-container .toast .fas {
+  color: #9b9b9b;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+/* ------------- *
+ *      Menu     *
+ * ------------- */
+
+.form-menu .mdi {
+  font-size: 1.25rem;
+  line-height: 1rem;
+  margin-right: 0.25rem;
+}
+
+.form-menu .resultSearchList .nav-link {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.form-menu .disabled {
+  pointer-events: none !important;
+}
+
+.form-menu .disabled a {
+  opacity: 0.7;
+}
+
+.form-menu .menu-remaining-level .breadcrumb,
+.form-menu .menu-first-level .breadcrumb {
+  display: none !important;
+}
+
+.form-menu .menu-remaining-level:hover .breadcrumb,
+.form-menu .menu-first-level:hover .breadcrumb {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.form-menu.menu-vertical .menu-inner-container > .list-group {
+  overflow-x: hidden !important;
+}
+
+.list-group.list-group-root {
+  padding: 0;
+  overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 0;
+  border-width: 1px 0 0 0;
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+  padding-left: 3rem;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+  padding-left: 4rem;
+}
+
+.list-group.list-group-root
+  > .list-group
+  > .list-group
+  > .list-group
+  > .list-group-item {
+  padding-left: 5rem;
+}
+
+.list-group.list-group-root
+  > .list-group
+  > .list-group
+  > .list-group
+  > .list-group
+  > .list-group-item {
+  padding-left: 6rem;
+}
+
+/* -------------- *
+ * Responsividade *
+ * -------------- */
+
+@media (max-width: 575.98px) {
+  /* ------------- *
+   * Floating Form *
+   * ------------- */
+
+  .WFRIframeForm {
+    top: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    border-radius: 0 !important;
+  }
+
+  #minimizedFloatingDivs {
+    position: absolute !important;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .swal2-popup.swal2-toast {
+    max-width: 20rem;
+  }
+}
+
+/* ------------- *
+ *    Checkbox   *
+ * ------------- */
+
+.form-group:not(.grid) .custom-checkbox .custom-control-label::after,
+.form-group:not(.grid) .custom-checkbox .custom-control-label::before {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+/* ----------- *
+ *  Localizar  *
+ * ----------- */
+.table tbody tr.highlight td {
+  background-color: #ddd;
+}
+
+/* ----------- *
+ *  Tabela  *
+ * ----------- */
+
+.HTMLTable {
+  border: 1px solid #b4b6b8;
+}
+
+.HTMLTableHeaderRow,
+.HTMLTableEdge {
+  height: 24px;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 1;
+}
+
+.HTMLTableHeaderCell {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+  height: 100%;
+}
+
+.HTMLTableHeaderCell span {
+  cursor: default;
+  padding-left: 3px;
+  padding-right: 3px;
+  top: 7px;
+}
+
+.HTMLTableOrderArrow {
+  position: absolute;
+  width: 7px;
+  left: calc(50% - 3.5px);
+  top: 1px;
+  display: none;
+}
+
+.HTMLTableHeaderCellSeparator {
+  display: inline-block;
+  text-overflow: ellipsis;
+  height: 100%;
+  cursor: e-resize;
+  width: 2px !important;
+  background-color: rgb(37,141,254) !important;
+}
+
+.HTMLTableHeaderCell:last-child {
+  overflow: hidden;
+  float: none;
+}
+
+.HTMLTableHeaderSearch [webrun-type="HTMLEdit"] {
+  border-right: 1px solid #b4b6b8;
+  border-bottom: 1px solid #b4b6b8;
+  display: inline-block !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+  height: 100%;
+}
+
+.HTMLTableHeaderSearch [webrun-type="HTMLEdit"] > input,
+.HTMLTableHeaderSearch [webrun-type="HTMLEdit"] > .input-group,
+.HTMLTableBodyCell [webrun-type="HTMLEdit"] > .input-group,
+.HTMLTableBodyCell [webrun-type="HTMLEdit"] > input {
+  height: 100%;
+}
+
+.HTMLTableBodyCell [webrun-type="HTMLEdit"],
+.HTMLTableBodyCell [webrun-type="HTMLEdit"] > .input-group,
+.HTMLTableBodyCell [webrun-type="HTMLEdit"] > input {
+  width: 100% !important;
+}
+
+.HTMLTableBody {
+  width: 100%;
+}
+
+.HTMLTableBody2 {
+  width: calc(100% + 0px);
+  padding: 0px 0px 0px 0px !important;
+  z-index: 1;
+}
+
+.HTMLTableBodyRow,
+.HTMLTableRowGroups .HTMLTableBodyRow {
+  background-color: #e9e6e6;
+  color: #343a40;
+}
+
+.HTMLTableBodyRowOdd, 
+.HTMLTableRowGroups .HTMLTableBodyRowOdd {
+  background-color: #ffffff;
+  color: #343a40;
+}
+.HTMLTableRowGroups 
+.HTMLTableBodyRowSelected {
+  border-top: 1px solid white;
+  background-color: #6c757d !important;
+}
+
+.HTMLTableBodyRow {
+  overflow-y: visible;
+  width: auto;
+  min-width: 100%;
+}
+
+.HTMLTableBodyCell {
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 2px;
+  cursor: default;
+  border-right: 1px solid #b4b6b8;
+}
+.HTMLTableBodyRowSelected, 
+.HTMLTableBodyRowSelected > .HTMLTableBodyCell{
+  background-color: #6c757d;
+  color: white !important;
+}
+
+.HTMLTableBodyCell > span {
+  padding: 2px;
+  vertical-align: sub;
+}
+.HTMLTableEdge {
+  width: 14px;
+}
+
+.HTMLScrollBar {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: default;
+  background-color: rgba(211, 211, 211, 0.3);
+  -webkit-transition: 0.5s background-color ease;
+  -moz-transition: 0.5s background-color ease;
+  -ms-transition: 0.5s background-color ease;
+  -o-transition: 0.5s background-color ease;
+  transition: 0.5s background-color ease;
+}
+
+.HTMLScrollThumbX,
+.HTMLScrollThumbY {
+  position: relative;
+  background-color: #808080;
+}
+
+.HTMLScrollThumbX {
+  height: 14px;
+  min-width: 20px;
+  display: none !important;
+}
+
+.HTMLScrollThumbY {
+  width: 14px;
+  min-height: 20px;
+}
+
+.HTMLTableNavButtons {
+  margin-top: -7px !important;
+  z-index: 0;
+}
+
+.HTMLTableContextMenu {
+  position: absolute;
+  z-index: 2147483647;
+  background-color: #f5f5f5;
+  font-size: 1.2em;
+  white-space: nowrap;
+  line-height: 30px;
+  width: 210px;
+  text-indent: 10px;
+  box-shadow: 1px 1.732px 9px 0px rgba(64, 64, 64, 0.5);
+  border: 1px solid #b4b6b8;
+  border-radius: 4px;
+}
+
+.HTMLTableContextMenu > div {
+  cursor: pointer;
+  border-bottom: 1px solid #b4b6b8;
+  color: #434343;
+  -webkit-transition: 0.1s ease-in;
+  -moz-transition: 0.1s ease-in;
+  -ms-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+  border-top: 1px solid #b4b6b8;
+}
+
+.HTMLTableHeaderSearch {
+  white-space: nowrap;
+  width: calc(100% + 0px);
+  padding: 0px 0px 0px 0px !important;
+  z-index: 1;
+  height: 22px;
+}
+/* ----------- *
+ *  Listagem  *
+ * ----------- */
+
+/*******************************************************/
+/* HTMLListagem: Componente Listagem                   */
+/*******************************************************/
+
+.HTMLListagem {
+  border-radius: .25rem;  
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.HTMLListagemBarTop {
+  height: 130px;
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 6px;
+}
+
+.HTMLListagemBarTopIcons{
+  font-size: 25px;
+  height: 36px;
+  padding: 2px;
+}
+
+.HTMLListagemBarTopIcons-Left{
+  float: left;
+  margin-right: 5px;
+}
+
+.HTMLListagemBarTopIcons-Right{
+  float: right;
+  margin-left: 5px;
+}
+
+.HTMLListagemBarTopIcons-Left:hover,
+.HTMLListagemBarTopIcons-Right:hover {
+  cursor: pointer;
+  color: #80bdff;
+}
+
+.HTMLListagemBody {
+  height: calc(100% - 130px);
+  width: 100% !important;
+  position: relative;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.HTMLListagemHeader {
+  background: rgba(0, 0, 0, 0.075); 
+  display: inline-flex;
+}
+
+.HTMLListagemHeader > div {
+  height: 25px!important;
+  width: calc(11% - 20px)!important;
+  overflow: hidden!important;
+  align-items: center;
+  min-width: 85px;
+}
+
+.HTMLListagemMostrar, .HTMLListagemAgrupar, .HTMLListagemSomar{
+  max-width: 60px;
+}
+
+.HTMLListagemHeader > div > div {
+    justify-content: center;
+    align-items: center;
+}
+
+.HTMLListagemHeader > div > div > label{
+    white-space: unset!important;
+}
+
+.HTMLListagemHeader,
+.HTMLListagemFields{
+  width: 100%!important;
+  position: relative;
+  align-items: center;
+}
+
+.HTMLListagemFields > div {
+  display: inline-flex;
+  align-items: center; 
+  width: 100%; 
+}
+
+.HTMLListagemFields > div [webrun-type="HTMLLabel"] > div > div {
+  background: rgba(255, 255, 255, 0);
+}
+
+.HTMLListagemFields > div > div {
+  display: inline-flex;
+  position: relative !important;
+  overflow: hidden !important;
+  justify-content: center;
+  width: calc(11% - 20px)!important;
+  min-width: 85px;
+}
+
+.HTMLListagemFieldsEven {
+  background: white !important;
+}
+
+.HTMLListagemFiltro_Inicial input {
+  text-align: left !important;
+}
+
+.HTMLListagemFiltro_Final input {
+  text-align: left !important;
+}
+
+.HtmlMsgListagem {
+  height: 40px;
+  width: 334px;
+  background: rgb(231, 231, 229);
+  top: calc(50% - 20px);
+  position: absolute;
+  margin-left: calc(50% - 167px);
+  z-index: 99;
+  border-radius: 20px;
+  display: none;
+}
+
+.HtmlMsgListagem > span {
+  width: 97%;
+  height: 24px;
+  margin-top: -12px;
+  position: absolute;
+  top: 50%;
+  left: 11.5%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #7d7d7c;
+}
+
+.ui-load:after {
+  position: absolute;
+  content: "";
+  top: calc(50% - 6px);
+  left: 11px;
+  margin: -0.64285714em 0 0 -0.64285714em;
+  width: 1.8em;
+  height: 1.8em;
+  -webkit-animation: spin 0.6s linear;
+  animation: spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #6e7075 transparent transparent;
+  border-style: solid;
+  border-width: 0.2em;
+  box-shadow: 0 0 0 1px transparent;
+}
+
+.ui-load:before {
+  position: absolute;
+  content: "";
+  top: calc(50% - 6px);
+  left: 11px;
+  margin: -0.64285714em 0 0 -0.64285714em;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 500rem;
+  border: 0.2em solid rgba(0, 0, 0, 0.1);
+}
+
+/* >>>> PERSONALIZAZACAO DO SCROLL - LISTAGEM <<<<*/
+
+.HTMLListagemFields::-webkit-scrollbar-track,
+.HTMLListagemBarTop::-webkit-scrollbar-track,
+.HTMLListagemBody::-webkit-scrollbar-track {
+  background-color: #f4f4f4;
+}
+.HTMLListagemFields::-webkit-scrollbar,
+.HTMLListagemBarTop::-webkit-scrollbar,
+.HTMLListagemBody::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+  background: #f4f4f4;
+}
+.HTMLListagemFields::-webkit-scrollbar-thumb,
+.HTMLListagemBarTop::-webkit-scrollbar-thumb,
+.HTMLListagemBody::-webkit-scrollbar-thumb{
+  background: #dad7d7;
+}
+
+/* Animations */
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.HTMLListagemNone{
+  display: none!important;
+}
+
+.HTMLListagemSimple .HTMLListagemMostrar,
+.HTMLListagemSimple .HTMLListagemAgrupar, .HTMLListagemSimple .HTMLListagemOrdem, 
+.HTMLListagemSimple .HTMLListagemTipoOrdem, .HTMLListagemSimple .HTMLListagemMascara, 
+.HTMLListagemSimple .HTMLListagemSomar, .HTMLListagemSimple .HTMLListagemTamanho,
+.HTMLListagemSimple .HTMLListagemTexto_Total, .HTMLListagemSimple .HTMLListagemBarIconsSettings > div:nth-child(1n + 2),
+.HTMLListagemSimple .HTMLListagemBarTop > div:nth-child(1n + 4),
+.HTMLListagemSimple .HTMLListagemBarTop > div:nth-child(2),
+.HTMLListagemSimple .HTMLListagemModeClassic{
+  display: none!important;
+}
+
+.HTMLListagemSimple .HTMLListagemBarTopIcons{
+  float: right;
+}
+
+.HTMLListagemSimple .HTMLListagemBarIconsPrint{
+  width: 200px;
+  display: inline-block;
+  float: left;
+}
+
+.HTMLListagemSimple .HTMLListagemBarIconsSettings{
+  margin-left: 10px;
+  float: left; 
+}
+
+.HTMLListagemSimple .HTMLListagemBarTop > div:nth-child(3){
+  right: unset!important;
+  top: 22px!important;
+}
+
+.HTMLListagemSimple .HTMLListagemBarTop{
+  height: 60px!important;
+}
+
+.HTMLListagemSimple .HTMLListagemHeader > div, .HTMLListagemFields > div > div{
+  width: calc(25%)!important;
+}
+
+.HTMLListagemModeAdvanced{
+  display: none;
+}
+
+.HTMLListagemSimple .HTMLListagemModeAdvanced{
+  display: block!important;
+}
+
+.HTMLListagemSimple .HTMLListagemBody{
+  height: calc(100% - 60px)!important;
+}
+
+.HTMLListagemFields > div:nth-child(even) {
+  background-color: var(--light);
+}
+
+/*********************/
+/**** ORGANOGRAMA ****/
+/*********************/
+.google-visualization-orgchart-lineleft {
+  border-left: 1px solid var(--primary);
+}
+
+.google-visualization-orgchart-linebottom {
+  border-bottom: 1px solid var(--primary);
+}
+
+.google-visualization-orgchart-lineright {
+  border-right: 1px solid var(--primary);
+}
+
+.GoogleChartOrg {
+  text-align: center;
+  vertical-align: middle;
+  font-family: arial,helvetica;
+  cursor: pointer;
+  border-radius: 3px;
+  background: var(--gray);
+  color: white;
+  min-width: 40px;
+}
+
+.GoogleChartOrg:not(.GoogleChartOrgSelected):hover {
+  background-color: #8c949c !important;
+}
+
+.GoogleChartOrgSelected {
+  background: var(--primary);
+  color: #fff;
+  min-width: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.GoogleChartOrgSelected:before {
+  content: '';
+  width: 100%;
+  height: 0;
+  left: 0;
+  top: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  -webkit-animation: selectedorgan 0.2s ease-in-out;
+  -moz-animation: selectedorgan 0.2s ease-in-out;
+  -ms-animation: selectedorgan 0.2s ease-in-out;
+  -o-animation: selectedorgan 0.2s ease-in-out;
+  animation: selectedorgan 0.2s ease-in-out;
+
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.GoogleChartOrgSelected:hover {
+  opacity: 0.8;
+}
+
+/* -- Animação dos itens selecionados -- */
+@-webkit-keyframes selectedorgan {
+  0% {
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes selectedorgan {
+  0% {
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@-o-keyframes selectedorgan {
+  0% {
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes selectedorgan {
+  0% {
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+.google-visualization-orgchart-table * {
+  user-select: none;
+}

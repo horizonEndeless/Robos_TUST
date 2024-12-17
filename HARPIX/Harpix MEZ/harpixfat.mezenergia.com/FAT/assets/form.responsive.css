@@ -1,0 +1,246 @@
+.card.form-group:not([webrun-type="HTMLImage"]) {
+  overflow: hidden;
+}
+
+.toast-container {
+  max-height: 100%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.toast-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 575px) {
+  [webrun-type="HTMLMemo"] textarea {
+    resize: vertical;
+    max-height: none !important;
+  }
+
+  div:empty[webrun-type="HTMLGroupBox"] {
+    display: none;
+  }
+  
+  div[webrun-type="HTMLDetailPanel"] {
+    display: none;
+  }
+
+  .tab-pane {
+    min-height: auto !important;
+    overflow: visible !important;
+  }
+
+  .toast-container {
+    position: fixed;
+    margin: 1rem !important;
+  }
+
+  .toast-container .toast {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .toast-container .toast.toast-error,
+  .toast-container .toast.toast-error,
+  .toast-container .toast.toast-edit,
+  .toast-container .toast.toast-inclusion,
+  .toast-container .toast.toast-filter,
+  .toast-container .toast.toast-wait {
+    width: auto;
+    min-width: auto;
+    float: right;
+  }
+
+  .toast-container .toast.toast-error small,
+  .toast-container .toast.toast-edit small,
+  .toast-container .toast.toast-inclusion small,
+  .toast-container .toast.toast-filter small,
+  .toast-container .toast.toast-wait small {
+    display: none;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    opacity: 0.0;
+  }
+
+  .form-menu.menu-collapse {
+    transition: all 0.5s ease;
+  }
+
+  .form-menu.menu-collapse.menu-vertical {
+    padding: 0.5rem;
+  }
+
+  .form-menu.menu-collapse.menu-vertical:not(.menu-with-search-top) {
+    padding-top: 3.5rem;
+  }
+
+  .form-menu.menu-collapse.menu-vertical.menu-align-top .menu-search.menu-search-top .input-group,
+  .form-menu.menu-collapse.menu-vertical.menu-align-left .menu-search.menu-search-top .input-group {
+    padding-left: 3rem;
+    height: 2.5rem;
+  }
+
+  .form-menu.menu-collapse.menu-vertical.menu-align-right .menu-search.menu-search-top .input-group {
+    padding-right: 3rem;
+    height: 2.5rem;
+  }
+
+  .form-menu.menu-collapse.menu-vertical.menu-align-top .menu-search.menu-search-top .input-group *,
+  .form-menu.menu-collapse.menu-vertical.menu-align-left .menu-search.menu-search-top .input-group * {
+    height: 100%;
+  }
+
+  .form-menu.menu-collapse.menu-align-top:not(.show) {
+    top: -100% !important;
+  }
+
+  .form-menu.menu-collapse.menu-align-bottom:not(.show) {
+    bottom: -100% !important;
+  }
+
+  .form-menu.menu-collapse.menu-align-left:not(.show) {
+    left: -100% !important;
+  }
+
+  .form-menu.menu-collapse.menu-align-right:not(.show) {
+    right: -100% !important;
+  }
+
+  .form-group:not(.fixed-height),
+  .form-action {
+    height: auto !important;
+  }
+
+  .form-group,
+  .form-menu:not(.menu-align-top):not(.menu-align-bottom):not(.menu-align-left):not(.menu-align-right),
+  .form-action {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+  .form-group,
+  .form-menu {
+    width: 100% !important;
+  }
+
+  *:not(.HTMLListagemFields):not(.HTMLListagemFieldsOdd):not(.HTMLListagemFieldsEven):not(.HTMLTableBodyCell):not(.HTMLTableHeaderSearch):not(.grid):not(.gridAltCol):not(.gridDark):not(.gridDarkAltCol):not(.gridSelected):not(.gridSelectedAltCol):not(.gridSelectedOver):not(.gridSelectedOverAltCol):not(.gridSelectedDark):not(.gridSelectedOverDark):not(.gridSelectedOverDarkAltCol):not(.gridSelectedDarkAltCol) > .form-group:not([webrun-type="HTMLGroupBox"]):not([webrun-type="HTMLContainer"]),
+  .form-action {
+    width: calc(100% - 2rem) !important;
+    margin-top: 1rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    margin-bottom: 0 !important;
+  }
+
+  .form-action {
+    width: auto !important;
+  }
+
+  .form-menu.menu-horizontal > *,
+  .form-menu.menu-horizontal .dropdown-menu a {
+    outline: 0 !important;
+  }
+
+  .form-group:not(.form-label):not([webrun-type="HTMLContainer"]) label,
+  .input-group label {
+    position: relative !important;
+    top: 0px !important;
+    margin-bottom: 0px !important;
+    width: 100%;
+  }
+
+  .grid .normal {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+  }
+
+  .form-group.labeled-right,
+  .form-group.labeled-left {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .form-group.labeled-left {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .form-group.labeled-right {
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+
+  .form-group.labeled-right .form-control,
+  .form-group.labeled-left .form-control {
+    width: auto;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+  }
+
+  .form-label.right,
+  .form-label.left {
+    width: auto !important;
+    height: auto !important;
+    line-height: -moz-block-height;
+  }
+
+  .form-label.right {
+    text-align: right;
+    left: 0 !important;
+    margin-left: 1rem;
+  }
+
+  .form-label.left {
+    text-align: left;
+    right: 0 !important;
+    margin-right: 1rem;
+  }
+
+  .richtext-box {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .richtext-box label {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .richtext-box textarea {
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+  }
+
+  /*******************************************************/
+  /* HTMLListagem: Componente Listagem                   */
+  /*******************************************************/
+
+  .HTMLListagem {
+    width: calc(100% - 2rem) !important;
+    margin-top: 1rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    margin-bottom: 0 !important;
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .form-group .input-group.input-group-legacy-resp .input-group-append {
+    position: absolute;
+    height: 100%;
+    left: 100%;
+  }
+}
