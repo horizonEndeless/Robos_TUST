@@ -1,0 +1,115 @@
+2025-03-13 13:19:18,533 - SigetPlusDownloaderLNT - INFO - Diretório de download criado: C:\Users\Bruno\Downloads\TUST\LNT
+2025-03-13 13:19:18,534 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora DE (código 3748) criado: C:\Users\Bruno\Downloads\TUST\LNT\DE
+2025-03-13 13:19:18,534 - SigetPlusDownloaderLNT - INFO - wkhtmltopdf configurado: C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe
+2025-03-13 13:19:31,086 - SigetPlusDownloaderLNT - INFO - Iniciando download de faturas para o agente 3748 no período 202502
+2025-03-13 13:19:31,086 - SigetPlusDownloaderLNT - INFO - Acessando página para o agente 3748 no período 202502...
+2025-03-13 13:19:32,039 - SigetPlusDownloaderLNT - INFO - Página acessada com sucesso. Status code: 200
+2025-03-13 13:19:32,044 - SigetPlusDownloaderLNT - INFO - Encontradas 1 linhas na tabela
+2025-03-13 13:19:32,044 - SigetPlusDownloaderLNT - INFO - Fatura encontrada: LUZIANIA-NIQUELANDIA TRANSMISSORA S.A - 3748 - DIAMANTE GERAÇÃO DE ENERGIA LTDA.
+2025-03-13 13:19:32,044 - SigetPlusDownloaderLNT - INFO - Encontradas 1 faturas na página
+2025-03-13 13:19:32,045 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora 1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A criado: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A
+2025-03-13 13:19:32,045 - SigetPlusDownloaderLNT - INFO - Baixando arquivo: 1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1 - URL: https://sys.sigetplus.com.br/cobranca/invoices/6444673/view
+2025-03-13 13:19:33,820 - SigetPlusDownloaderLNT - INFO - HTML convertido para PDF com sucesso: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1.pdf
+2025-03-13 13:19:33,820 - SigetPlusDownloaderLNT - INFO - Boleto HTML convertido para PDF: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1.pdf
+2025-03-13 13:19:33,820 - SigetPlusDownloaderLNT - INFO - Fatura 3748 - DIAMANTE GERAÇÃO DE ENERGIA LTDA. baixada com sucesso: 1 arquivos
+2025-03-13 13:19:34,822 - SigetPlusDownloaderLNT - INFO - Download concluído para o período 202502. Total de faturas baixadas: 1
+2025-03-13 13:21:47,793 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora DE (código 3748) criado: C:\Users\Bruno\Downloads\TUST\LNT\DE
+2025-03-13 13:21:47,793 - SigetPlusDownloaderLNT - INFO - wkhtmltopdf configurado: C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe
+2025-03-13 13:21:57,245 - SigetPlusDownloaderLNT - INFO - Iniciando download de faturas para o agente 3748 no período 202502
+2025-03-13 13:21:57,246 - SigetPlusDownloaderLNT - INFO - Acessando página para o agente 3748 no período 202502...
+2025-03-13 13:21:58,188 - SigetPlusDownloaderLNT - INFO - Página acessada com sucesso. Status code: 200
+2025-03-13 13:21:58,193 - SigetPlusDownloaderLNT - INFO - Encontradas 1 linhas na tabela
+2025-03-13 13:21:58,193 - SigetPlusDownloaderLNT - INFO - Fatura encontrada: LUZIANIA-NIQUELANDIA TRANSMISSORA S.A - 3748 - DIAMANTE GERAÇÃO DE ENERGIA LTDA.
+2025-03-13 13:21:58,193 - SigetPlusDownloaderLNT - INFO - Encontradas 1 faturas na página
+2025-03-13 13:21:58,194 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora 1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A criado: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A
+2025-03-13 13:21:58,194 - SigetPlusDownloaderLNT - INFO - Baixando arquivo: 1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1 - URL: https://sys.sigetplus.com.br/cobranca/invoices/6444673/view
+2025-03-13 13:22:00,203 - SigetPlusDownloaderLNT - INFO - HTML convertido para PDF com sucesso: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1.pdf
+2025-03-13 13:22:00,203 - SigetPlusDownloaderLNT - INFO - Boleto HTML convertido para PDF: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1.pdf
+2025-03-13 13:22:00,204 - SigetPlusDownloaderLNT - INFO - Fatura 3748 - DIAMANTE GERAÇÃO DE ENERGIA LTDA. baixada com sucesso: 1 arquivos
+2025-03-13 13:22:01,205 - SigetPlusDownloaderLNT - INFO - Download concluído para o período 202502. Total de faturas baixadas: 1
+2025-03-13 13:23:21,200 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora DE (código 3748) criado: C:\Users\Bruno\Downloads\TUST\LNT\DE
+2025-03-13 13:23:21,200 - SigetPlusDownloaderLNT - INFO - wkhtmltopdf configurado: C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe
+2025-03-13 13:23:26,513 - SigetPlusDownloaderLNT - INFO - Iniciando download de faturas para o agente 3748 no período 202502
+2025-03-13 13:23:26,513 - SigetPlusDownloaderLNT - INFO - Acessando página para o agente 3748 no período 202502...
+2025-03-13 13:23:27,542 - SigetPlusDownloaderLNT - INFO - Página acessada com sucesso. Status code: 200
+2025-03-13 13:23:27,547 - SigetPlusDownloaderLNT - INFO - Encontradas 1 linhas na tabela
+2025-03-13 13:23:27,548 - SigetPlusDownloaderLNT - INFO - HTML da página salvo para debug em: C:\Users\Bruno\Downloads\TUST\LNT\debug\debug_page.html
+2025-03-13 13:23:27,548 - SigetPlusDownloaderLNT - INFO - HTML da última coluna: <td>
+                                                            -
+                                                    </td>
+2025-03-13 13:23:27,548 - SigetPlusDownloaderLNT - INFO - Fatura encontrada: LUZIANIA-NIQUELANDIA TRANSMISSORA S.A - 3748 - DIAMANTE GERAÇÃO DE ENERGIA LTDA.
+2025-03-13 13:23:27,548 - SigetPlusDownloaderLNT - INFO - Links encontrados: {'boleto_1': 'https://sys.sigetplus.com.br/cobranca/invoices/6444673/view'}
+2025-03-13 13:23:27,549 - SigetPlusDownloaderLNT - INFO - Encontradas 1 faturas na página
+2025-03-13 13:23:27,549 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora 1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A criado: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A
+2025-03-13 13:23:27,549 - SigetPlusDownloaderLNT - INFO - Baixando arquivo: 1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1 - URL: https://sys.sigetplus.com.br/cobranca/invoices/6444673/view
+2025-03-13 13:23:27,549 - SigetPlusDownloaderLNT - INFO - URL modificada para XML: https://sys.sigetplus.com.br/cobranca/invoices/6444673/view?_=1741883007
+2025-03-13 13:23:29,348 - SigetPlusDownloaderLNT - INFO - HTML convertido para PDF com sucesso: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1.pdf
+2025-03-13 13:23:29,348 - SigetPlusDownloaderLNT - INFO - Boleto HTML convertido para PDF: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1.pdf
+2025-03-13 13:23:29,348 - SigetPlusDownloaderLNT - INFO - Fatura 3748 - DIAMANTE GERAÇÃO DE ENERGIA LTDA. baixada com sucesso: 1 arquivos
+2025-03-13 13:23:30,349 - SigetPlusDownloaderLNT - INFO - Download concluído para o período 202502. Total de faturas baixadas: 1
+2025-03-13 13:25:41,708 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora DE (código 3748) criado: C:\Users\Bruno\Downloads\TUST\LNT\DE
+2025-03-13 13:25:41,708 - SigetPlusDownloaderLNT - INFO - wkhtmltopdf configurado: C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe
+2025-03-13 13:25:47,343 - SigetPlusDownloaderLNT - INFO - Iniciando download de faturas para o agente 3748 no período 202502
+2025-03-13 13:25:47,344 - SigetPlusDownloaderLNT - INFO - Acessando página para o agente 3748 no período 202502...
+2025-03-13 13:25:48,236 - SigetPlusDownloaderLNT - INFO - Página acessada com sucesso. Status code: 200
+2025-03-13 13:25:48,242 - SigetPlusDownloaderLNT - INFO - Encontradas 1 linhas na tabela
+2025-03-13 13:25:48,243 - SigetPlusDownloaderLNT - INFO - HTML da página salvo para debug em: C:\Users\Bruno\Downloads\TUST\LNT\debug\debug_page.html
+2025-03-13 13:25:48,244 - SigetPlusDownloaderLNT - INFO - Links XML encontrados na página: ['http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/XMLs/33250314863121000171550010000984181029985724-nfe.xml']
+2025-03-13 13:25:48,244 - SigetPlusDownloaderLNT - INFO - Links DANFE encontrados na página: ['http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/DANFEs/33250314863121000171550010000984181029985724.pdf']
+2025-03-13 13:25:48,245 - SigetPlusDownloaderLNT - INFO - HTML da última coluna: <td>
+                                                            -
+                                                    </td>
+2025-03-13 13:25:48,245 - SigetPlusDownloaderLNT - INFO - Link XML obtido da página completa: http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/XMLs/33250314863121000171550010000984181029985724-nfe.xml
+2025-03-13 13:25:48,245 - SigetPlusDownloaderLNT - INFO - Link DANFE obtido da página completa: http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/DANFEs/33250314863121000171550010000984181029985724.pdf
+2025-03-13 13:25:48,245 - SigetPlusDownloaderLNT - INFO - Fatura encontrada: LUZIANIA-NIQUELANDIA TRANSMISSORA S.A - 3748 - DIAMANTE GERAÇÃO DE ENERGIA LTDA.
+2025-03-13 13:25:48,245 - SigetPlusDownloaderLNT - INFO - Links encontrados: {'boleto_1': 'https://sys.sigetplus.com.br/cobranca/invoices/6444673/view', 'xml': 'http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/XMLs/33250314863121000171550010000984181029985724-nfe.xml', 'danfe': 'http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/DANFEs/33250314863121000171550010000984181029985724.pdf'}
+2025-03-13 13:25:48,246 - SigetPlusDownloaderLNT - INFO - Encontradas 1 faturas na página
+2025-03-13 13:25:48,246 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora 1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A criado: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A
+2025-03-13 13:25:48,246 - SigetPlusDownloaderLNT - INFO - Baixando arquivo: 1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_XML - URL: http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/XMLs/33250314863121000171550010000984181029985724-nfe.xml
+2025-03-13 13:25:49,288 - SigetPlusDownloaderLNT - INFO - Arquivo baixado com sucesso: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_XML.xml
+2025-03-13 13:25:49,289 - SigetPlusDownloaderLNT - INFO - Baixando arquivo: 1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_DANFE - URL: http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/DANFEs/33250314863121000171550010000984181029985724.pdf
+2025-03-13 13:25:50,270 - SigetPlusDownloaderLNT - INFO - Arquivo baixado com sucesso: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_DANFE.pdf
+2025-03-13 13:25:50,271 - SigetPlusDownloaderLNT - INFO - Baixando arquivo: 1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1 - URL: https://sys.sigetplus.com.br/cobranca/invoices/6444673/view
+2025-03-13 13:25:50,271 - SigetPlusDownloaderLNT - INFO - URL modificada para XML: https://sys.sigetplus.com.br/cobranca/invoices/6444673/view?_=1741883150
+2025-03-13 13:25:52,000 - SigetPlusDownloaderLNT - INFO - HTML convertido para PDF com sucesso: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1.pdf
+2025-03-13 13:25:52,001 - SigetPlusDownloaderLNT - INFO - Boleto HTML convertido para PDF: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1.pdf
+2025-03-13 13:25:52,001 - SigetPlusDownloaderLNT - INFO - Fatura 3748 - DIAMANTE GERAÇÃO DE ENERGIA LTDA. baixada com sucesso: 3 arquivos
+2025-03-13 13:25:53,002 - SigetPlusDownloaderLNT - INFO - Download concluído para o período 202502. Total de faturas baixadas: 1
+2025-03-13 13:27:31,593 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora DE (código 3748) criado: C:\Users\Bruno\Downloads\TUST\LNT\DE
+2025-03-13 13:27:31,593 - SigetPlusDownloaderLNT - INFO - wkhtmltopdf configurado: C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe
+2025-03-13 13:27:31,593 - SigetPlusDownloaderLNT - INFO - Iniciando download de faturas para o agente 3748 no período 202503
+2025-03-13 13:27:31,593 - SigetPlusDownloaderLNT - INFO - Acessando página para o agente 3748 no período 202503...
+2025-03-13 13:27:32,516 - SigetPlusDownloaderLNT - INFO - Página acessada com sucesso. Status code: 200
+2025-03-13 13:27:32,520 - SigetPlusDownloaderLNT - INFO - Encontradas 1 linhas na tabela
+2025-03-13 13:27:32,522 - SigetPlusDownloaderLNT - INFO - HTML da página salvo para debug em: C:\Users\Bruno\Downloads\TUST\LNT\debug\debug_page.html
+2025-03-13 13:27:32,523 - SigetPlusDownloaderLNT - WARNING - Linha com número insuficiente de colunas: 1
+2025-03-13 13:27:32,523 - SigetPlusDownloaderLNT - INFO - Encontradas 0 faturas na página
+2025-03-13 13:27:32,524 - SigetPlusDownloaderLNT - WARNING - Nenhuma fatura encontrada no período 202503.
+2025-03-13 13:29:00,832 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora DE (código 3748) criado: C:\Users\Bruno\Downloads\TUST\LNT\DE
+2025-03-13 13:29:00,833 - SigetPlusDownloaderLNT - INFO - wkhtmltopdf configurado: C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe
+2025-03-13 13:29:00,833 - SigetPlusDownloaderLNT - INFO - Iniciando download de faturas para o agente 3748 no período 202502
+2025-03-13 13:29:00,833 - SigetPlusDownloaderLNT - INFO - Acessando página para o agente 3748 no período 202502...
+2025-03-13 13:29:01,810 - SigetPlusDownloaderLNT - INFO - Página acessada com sucesso. Status code: 200
+2025-03-13 13:29:01,816 - SigetPlusDownloaderLNT - INFO - Encontradas 1 linhas na tabela
+2025-03-13 13:29:01,817 - SigetPlusDownloaderLNT - INFO - HTML da página salvo para debug em: C:\Users\Bruno\Downloads\TUST\LNT\debug\debug_page.html
+2025-03-13 13:29:01,817 - SigetPlusDownloaderLNT - INFO - Links XML encontrados na página: ['http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/XMLs/33250314863121000171550010000984181029985724-nfe.xml']
+2025-03-13 13:29:01,817 - SigetPlusDownloaderLNT - INFO - Links DANFE encontrados na página: ['http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/DANFEs/33250314863121000171550010000984181029985724.pdf']
+2025-03-13 13:29:01,817 - SigetPlusDownloaderLNT - INFO - HTML da última coluna: <td>
+                                                            -
+                                                    </td>
+2025-03-13 13:29:01,817 - SigetPlusDownloaderLNT - INFO - Link XML obtido da página completa: http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/XMLs/33250314863121000171550010000984181029985724-nfe.xml
+2025-03-13 13:29:01,818 - SigetPlusDownloaderLNT - INFO - Link DANFE obtido da página completa: http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/DANFEs/33250314863121000171550010000984181029985724.pdf
+2025-03-13 13:29:01,818 - SigetPlusDownloaderLNT - INFO - Fatura encontrada: LUZIANIA-NIQUELANDIA TRANSMISSORA S.A - 3748 - DIAMANTE GERAÇÃO DE ENERGIA LTDA.
+2025-03-13 13:29:01,818 - SigetPlusDownloaderLNT - INFO - Links encontrados: {'boleto_1': 'https://sys.sigetplus.com.br/cobranca/invoices/6444673/view', 'xml': 'http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/XMLs/33250314863121000171550010000984181029985724-nfe.xml', 'danfe': 'http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/DANFEs/33250314863121000171550010000984181029985724.pdf'}
+2025-03-13 13:29:01,818 - SigetPlusDownloaderLNT - INFO - Encontradas 1 faturas na página
+2025-03-13 13:29:01,818 - SigetPlusDownloaderLNT - INFO - Diretório para transmissora 1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A criado: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A
+2025-03-13 13:29:01,819 - SigetPlusDownloaderLNT - INFO - Baixando arquivo: 1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_XML - URL: http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/XMLs/33250314863121000171550010000984181029985724-nfe.xml
+2025-03-13 13:29:02,833 - SigetPlusDownloaderLNT - INFO - Arquivo baixado com sucesso: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_XML.xml
+2025-03-13 13:29:02,833 - SigetPlusDownloaderLNT - INFO - Baixando arquivo: 1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_DANFE - URL: http://nfe-documentos.sigetplus.com.br//arquivos/14863121000171_12064/202503/DANFEs/33250314863121000171550010000984181029985724.pdf
+2025-03-13 13:29:03,819 - SigetPlusDownloaderLNT - INFO - Arquivo baixado com sucesso: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_DANFE.pdf
+2025-03-13 13:29:03,819 - SigetPlusDownloaderLNT - INFO - Baixando arquivo: 1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1 - URL: https://sys.sigetplus.com.br/cobranca/invoices/6444673/view
+2025-03-13 13:29:03,820 - SigetPlusDownloaderLNT - INFO - URL modificada para XML: https://sys.sigetplus.com.br/cobranca/invoices/6444673/view?_=1741883343
+2025-03-13 13:29:05,698 - SigetPlusDownloaderLNT - INFO - HTML convertido para PDF com sucesso: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1.pdf
+2025-03-13 13:29:05,698 - SigetPlusDownloaderLNT - INFO - Boleto HTML convertido para PDF: C:\Users\Bruno\Downloads\TUST\LNT\DE\1143 - LUZIANIA-NIQUELANDIA TRANSMISSORA S.A\1143_3748_-_DIAMANTE_GERAÇÃO_DE_ENERGIA_LTDA_202502_BOLETO_1.pdf
+2025-03-13 13:29:05,698 - SigetPlusDownloaderLNT - INFO - Fatura 3748 - DIAMANTE GERAÇÃO DE ENERGIA LTDA. baixada com sucesso: 3 arquivos
+2025-03-13 13:29:06,700 - SigetPlusDownloaderLNT - INFO - Download concluído para o período 202502. Total de faturas baixadas: 1
