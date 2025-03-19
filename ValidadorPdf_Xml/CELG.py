@@ -36,9 +36,9 @@ def criar_df_empresas():
 30425445000184	-	-	SJP4	CELEO SAO JOAO DO PIAUI FV IV S.A.
 30456405000108	-	-	SJP5	CELEO SAO JOAO DO PIAUI FV V S.A.
 30421756000175	-	-	SJP6	CELEO SAO JOAO DO PIAUI FV VI S.A.
-14285232000148	3740	-	COR1	COREMAS I GERAÇÃO DE ENERGIA SPE S.A.
-14285242000183	3741	-	COR2	COREMAS II GERACAO DE ENERGIA II SPE S.A.
-24342513000149	3750	-	COR3	COREMAS III GERAÇÃO DE ENERGIA SPE S.A.
+14285232000148	-	-	COR1	COREMAS I GERAÇÃO DE ENERGIA SPE S.A.
+14285242000183	-	-	COR2	COREMAS II GERACAO DE ENERGIA II SPE S.A.
+24342513000149	-	-	COR3	COREMAS III GERAÇÃO DE ENERGIA SPE S.A.
 10500221000182	-	-	LIBRA	LIBRA LIGAS DO BRASIL S/A
 27093977000238	-	-	DE	DE DIAMANTE GERAÇÃO DE ENERGIA LTDA'''
     
@@ -55,7 +55,7 @@ def criar_df_transmissoras():
 27831352000498	ALIANCA
 07779299000173	CELG LT ITUMBIARA
 24944194000141	PARAGUACU
-49537506000204  EDP_NORTE2'''
+49537506000204	EDP_NORTE2'''
     
     import io
     df = pd.read_csv(io.StringIO(dados_transmissoras), sep='\t', dtype={'CNPJ': str})
@@ -102,6 +102,73 @@ def extrair_info_boleto(caminho_pdf, df_empresas):
     except Exception as e:
         print(f"Erro ao processar PDF: {str(e)}")
         return None
+
+def extrair_info_danfe(caminho_pdf, df_empresas):
+    """Extrai informações da DANFE PDF"""
+    try:
+        with pdfplumber.open(caminho_pdf) as pdf:
+            texto = pdf.pages[0].extract_text()
+            
+            # Procura por CNPJs no formato específico da DANFE
+            import re
+            # Padrão mais específico para CNPJs formatados (XX.XXX.XXX/XXXX-XX)
+            padrao_cnpj = r'\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}'
+            cnpjs_encontrados = re.findall(padrao_cnpj, texto)
+            
+            if cnpjs_encontrados:
+                for cnpj in cnpjs_encontrados:
+                    cnpj_limpo = re.sub(r'[^\d]', '', cnpj)
+                    if cnpj_limpo in df_empresas['CNPJ'].values:
+                        return {'cnpj': cnpj_limpo}
+            
+            # Se não encontrar CNPJs formatados, procura por números puros
+            if not cnpjs_encontrados:
+                padrao_cnpj_numerico = r'\d{14}'
+                cnpjs_encontrados = re.findall(padrao_cnpj_numerico, texto)
+                for cnpj in cnpjs_encontrados:
+                    if cnpj in df_empresas['CNPJ'].values:
+                        return {'cnpj': cnpj}
+            
+            return None
+            
+    except Exception as e:
+        print(f"Erro ao processar DANFE: {str(e)}")
+        return None
+
+def verificar_arquivos_empresa(pasta_entrada, empresa):
+    """Verifica se todos os arquivos necessários existem para uma empresa"""
+    arquivos_necessarios = [
+        f"{empresa}.xml",
+        f"{empresa}.pdf",
+        f"{empresa}_DANFE.pdf"
+    ]
+    
+    arquivos_encontrados = {}
+    for arquivo in arquivos_necessarios:
+        caminho = os.path.join(pasta_entrada, arquivo)
+        existe = os.path.exists(caminho)
+        arquivos_encontrados[arquivo] = existe
+        if not existe:
+            print(f"AVISO: Arquivo {arquivo} não encontrado")
+    
+    return all(arquivos_encontrados.values()), arquivos_encontrados
+
+def verificar_transmissora(info_xml, df_transmissoras):
+    """Verifica se a transmissora foi encontrada e retorna detalhes"""
+    if not info_xml:
+        print("ERRO: Não foi possível extrair informações do XML")
+        return None, "XML inválido"
+    
+    if 'emit_cnpj' not in info_xml:
+        print("ERRO: CNPJ do emitente não encontrado no XML")
+        return None, "CNPJ emitente não encontrado"
+    
+    cnpj_match = df_transmissoras[df_transmissoras['CNPJ'] == info_xml['emit_cnpj']]
+    if cnpj_match.empty:
+        print(f"ERRO: CNPJ da transmissora {info_xml['emit_cnpj']} não encontrado na tabela")
+        return None, "CNPJ não cadastrado"
+    
+    return cnpj_match.iloc[0]['TRANSMISSORA'], None
 
 def processar_arquivos(pasta_entrada):
     """Processa todos os arquivos e organiza em pastas"""
@@ -154,48 +221,96 @@ def processar_arquivos(pasta_entrada):
                 except Exception as e:
                     print(f"Erro ao renomear PDF: {str(e)}")
     
+    # Processa DANFEs - ajustado para procurar por qualquer PDF que não seja boleto
+    print("\nProcessando arquivos DANFE...")
+    danfes = [f for f in os.listdir(pasta_entrada) 
+              if f.endswith('.pdf') and not f.lower().startswith('boleto-')]
+    for arquivo in danfes:
+        print(f"\nProcessando possível DANFE: {arquivo}")
+        caminho_completo = os.path.join(pasta_entrada, arquivo)
+        info = extrair_info_danfe(caminho_completo, df_empresas)
+        
+        if info:
+            cnpj_match = df_empresas[df_empresas['CNPJ'] == info['cnpj']]
+            if not cnpj_match.empty:
+                empresa = cnpj_match.iloc[0]
+                novo_nome = f"{empresa['EMPRESA']}_DANFE.pdf"
+                novo_caminho = os.path.join(pasta_entrada, novo_nome)
+                try:
+                    os.rename(caminho_completo, novo_caminho)
+                    print(f"DANFE renomeada para: {novo_nome}")
+                except Exception as e:
+                    print(f"Erro ao renomear DANFE: {str(e)}")
+    
     # Consolida arquivos em pastas
     print("\nConsolidando arquivos em pastas...")
     arquivos = os.listdir(pasta_entrada)
-    empresas_xml = [os.path.splitext(f)[0] for f in arquivos if f.endswith('.xml')]
-    empresas_pdf = [os.path.splitext(f)[0] for f in arquivos if f.endswith('.pdf')]
     
-    empresas_completas = set(empresas_xml) & set(empresas_pdf)
-    print(f"Encontradas {len(empresas_completas)} empresas com ambos os documentos")
+    # Extrai nomes base dos arquivos
+    empresas_xml = [os.path.splitext(f)[0] for f in arquivos if f.endswith('.xml')]
+    empresas_pdf = [os.path.splitext(f)[0] for f in arquivos if f.endswith('.pdf') and not f.endswith('_DANFE.pdf')]
+    empresas_danfe = [os.path.splitext(f)[0].replace('_DANFE', '') for f in arquivos if f.endswith('_DANFE.pdf')]
+    
+    # Encontra empresas que têm os três documentos
+    empresas_completas = set(empresas_xml) & set(empresas_pdf) & set(empresas_danfe)
+    print(f"Encontradas {len(empresas_completas)} empresas com os três documentos")
     
     for empresa in empresas_completas:
-        print(f"\nOrganizando arquivos da empresa: {empresa}")
+        print(f"\nVerificando arquivos da empresa: {empresa}")
+        
+        # Verifica se todos os arquivos existem
+        arquivos_ok, status_arquivos = verificar_arquivos_empresa(pasta_entrada, empresa)
+        if not arquivos_ok:
+            print("ERRO: Nem todos os arquivos necessários foram encontrados:")
+            for arquivo, existe in status_arquivos.items():
+                print(f"  - {arquivo}: {'Encontrado' if existe else 'Não encontrado'}")
+            continue
         
         # Obtém o CNPJ da transmissora do XML
         caminho_xml = os.path.join(pasta_entrada, f"{empresa}.xml")
         info_xml = extrair_info_xml(caminho_xml)
         
-        if info_xml and info_xml['emit_cnpj'] in df_transmissoras['CNPJ'].values:
-            transmissora = df_transmissoras[df_transmissoras['CNPJ'] == info_xml['emit_cnpj']].iloc[0]['TRANSMISSORA']
+        # Verifica a transmissora
+        transmissora, erro = verificar_transmissora(info_xml, df_transmissoras)
+        if erro:
+            print(f"ERRO ao identificar transmissora: {erro}")
+            continue
             
-            # Limpa o nome da pasta antes de criar
-            transmissora = transmissora.strip().replace(' ', '_')
-            
-            # Cria estrutura de pastas: transmissora/empresa
-            pasta_transmissora = os.path.join(pasta_entrada, transmissora)
+        # Limpa o nome da pasta
+        transmissora = transmissora.strip().replace(' ', '_')
+        
+        # Cria estrutura de pastas
+        pasta_transmissora = os.path.join(pasta_entrada, transmissora)
+        pasta_empresa = os.path.join(pasta_transmissora, empresa)
+        
+        try:
             if not os.path.exists(pasta_transmissora):
                 os.makedirs(pasta_transmissora)
+                print(f"Pasta da transmissora criada: {transmissora}")
             
-            pasta_empresa = os.path.join(pasta_transmissora, empresa)
             if not os.path.exists(pasta_empresa):
                 os.makedirs(pasta_empresa)
+                print(f"Pasta da empresa criada: {transmissora}/{empresa}")
             
-            # Move XML e PDF
-            for ext in ['.xml', '.pdf']:
-                origem = os.path.join(pasta_entrada, f"{empresa}{ext}")
-                destino = os.path.join(pasta_empresa, f"{empresa}{ext}")
+            # Move os arquivos
+            arquivos_mover = [
+                (f"{empresa}.xml", f"{empresa}.xml"),
+                (f"{empresa}.pdf", f"{empresa}.pdf"),
+                (f"{empresa}_DANFE.pdf", f"{empresa}_DANFE.pdf")
+            ]
+            
+            for arquivo_origem, arquivo_destino in arquivos_mover:
+                origem = os.path.join(pasta_entrada, arquivo_origem)
+                destino = os.path.join(pasta_empresa, arquivo_destino)
+                
                 try:
                     shutil.move(origem, destino)
-                    print(f"Arquivo {ext} movido para {transmissora}/{empresa}")
+                    print(f"Arquivo movido com sucesso: {arquivo_origem} -> {transmissora}/{empresa}/")
                 except Exception as e:
-                    print(f"Erro ao mover arquivo {ext}: {str(e)}")
-        else:
-            print(f"Transmissora não encontrada para a empresa {empresa}")
+                    print(f"ERRO ao mover arquivo {arquivo_origem}: {str(e)}")
+                    
+        except Exception as e:
+            print(f"ERRO ao criar estrutura de pastas: {str(e)}")
     
     print("\nProcessamento concluído!")
 
