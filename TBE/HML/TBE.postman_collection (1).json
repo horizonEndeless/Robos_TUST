@@ -1,0 +1,2055 @@
+{
+	"info": {
+		"_postman_id": "3f350618-5d40-45a4-859e-840b1f18cd89",
+		"name": "TBE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40047903"
+	},
+	"item": [
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000052059&cnpj=26.643.937/0003-30&tp=1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000052059&cnpj=26.643.937/0003-30&tp=1",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Downloads",
+						"DownloadXml"
+					],
+					"query": [
+						{
+							"key": "Nfe",
+							"value": "000052059"
+						},
+						{
+							"key": "cnpj",
+							"value": "26.643.937/0003-30"
+						},
+						{
+							"key": "tp",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000084659&cnpj=05.974.828/0001-64&tp=1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000084659&cnpj=05.974.828/0001-64&tp=1",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Downloads",
+						"DownloadXml"
+					],
+					"query": [
+						{
+							"key": "Nfe",
+							"value": "000084659"
+						},
+						{
+							"key": "cnpj",
+							"value": "05.974.828/0001-64"
+						},
+						{
+							"key": "tp",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://events.launchdarkly.com/events/bulk/60645109ece3b60c64ac5e02",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "events.launchdarkly.com"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "X-LaunchDarkly-Payload-ID",
+						"value": "3579da80-e7e5-11ef-92e9-d5da50aa0f1c"
+					},
+					{
+						"key": "X-LaunchDarkly-Event-Schema",
+						"value": "3"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"kind\":\"feature\",\"key\":\"growth_grw_1784_enable_first_request_sending\",\"value\":{\"ldName\":\"off\",\"openOnLoad\":false,\"showNewSuggestions\":false,\"isExperiment\":false},\"variation\":4,\"default\":{\"ldName\":\"off\",\"isExperiment\":false,\"openOnLoad\":false,\"showNewSuggestions\":false,\"experimentEnded\":false,\"experimentStartTimeS\":null},\"creationDate\":1739215680090,\"version\":35,\"userKey\":\"40047903\"},{\"kind\":\"feature\",\"key\":\"growth_grw_1682_grid_collection_template_banner\",\"value\":{\"ldName\":\"variation\",\"enabled\":true},\"variation\":0,\"default\":{\"enabled\":false,\"ldName\":\"off\"},\"creationDate\":1739215687748,\"version\":6,\"userKey\":\"40047903\"},{\"startDate\":1739215679378,\"endDate\":1739215705408,\"features\":{\"ai-driven-testsuite-generation\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":8,\"variation\":0,\"version\":20}]},\"apitest_843_monitoring_enabled\":{\"default\":true,\"counters\":[{\"value\":true,\"count\":9,\"variation\":0,\"version\":4}]},\"CC-3715-Enable-inline-share\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":40,\"variation\":0,\"version\":33}]},\"search-related-requests\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":2,\"variation\":0,\"version\":33}]},\"search-related-requests-callout\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":1,\"variation\":0,\"version\":19}]},\"growth_grw_1784_enable_first_request_sending\":{\"default\":{\"ldName\":\"off\",\"isExperiment\":false,\"openOnLoad\":false,\"showNewSuggestions\":false,\"experimentEnded\":false,\"experimentStartTimeS\":null},\"counters\":[{\"value\":{\"ldName\":\"off\",\"openOnLoad\":false,\"showNewSuggestions\":false,\"isExperiment\":false},\"count\":1,\"variation\":4,\"version\":35}]},\"runtime-7179-pinning-env-to-collection\":{\"default\":{\"isEnvironmentPinningEnabled\":false},\"counters\":[{\"value\":{\"isEnvironmentPinningEnabled\":true},\"count\":29,\"variation\":0,\"version\":13}]},\"universe-collection-overview-custom-prerender-ready\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":6,\"variation\":0,\"version\":4}]},\"cc-3493-consistent-share-in-workbench-header\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":6,\"variation\":0,\"version\":12}]},\"growth_133_collection_copy_link_button\":{\"default\":{\"enabled\":false,\"ldName\":\"off\"},\"counters\":[{\"value\":{\"enabled\":false,\"ldName\":\"off\"},\"count\":3,\"variation\":3,\"version\":5}]},\"ab-23-collections-with-typed-information\":{\"default\":{\"enabled\":false,\"enabledForAll\":false,\"teamIds\":[],\"userIds\":[]},\"counters\":[{\"value\":{\"enabledForAll\":false,\"teamIds\":[\"6029\",\"6247863\",\"1370094\",\"5366948\",\"5309048\",\"6390409\",\"3518271\",\"6404237\",\"6312215\",\"1246282\",\"1807075\",\"9089\",\"6446786\",\"3737912\",\"3189911\",\"1112621\",\"936526\",\"6583129\",\"1034517\",\"1873571\",\"5968537\",\"4944657\",\"4978292\",\"3761541\",\"5066117\",\"2535642\",\"5939397\",\"3078091\",\"4422812\",\"2713874\",\"5988714\",\"6501893\",\"2722008\",\"6521007\",\"31092\",\"295776\",\"3180211\",\"309338\",\"6392694\",\"5510479\",\"1244916\",\"3287761\",\"344804\",\"4727908\",\"43356\",\"6283132\",\"4021452\",\"1466289\",\"3073510\",\"4024022\",\"142535\",\"789889\",\"6012036\",\"6132161\",\"3286611\",\"2729161\",\"4691321\",\"112240\",\"119844\",\"641970\",\"263615\",\"3103008\",\"260013\",\"731625\",\"681460\",\"6134052\",\"328291\",\"143905\",\"6461037\",\"680745\",\"1681093\",\"36204\",\"1232728\",\"3155688\",\"6192278\",\"6530895\",\"138497\",\"1441639\",\"533656\",\"5166091\",\"6175819\",\"851072\",\"170699\",\"1175363\",\"1441521\",\"6341628\",\"3605823\",\"3724131\",\"1268595\",\"42681\",\"65564\",\"5891077\",\"6090161\",\"34789\",\"5474499\",\"5250400\",\"5680331\",\"6517807\",\"1039811\",\"6516004\",\"6207160\",\"1245313\",\"340266\",\"2917635\",\"1437977\",\"132540\",\"1190644\",\"3716903\",\"1287721\",\"3515019\",\"3062701\",\"1377177\",\"6068330\",\"6491345\",\"4030722\",\"4723693\",\"4565988\",\"6493155\",\"6177941\",\"2866062\",\"6277900\",\"3781687\",\"5746414\",\"918708\",\"1560620\",\"508416\",\"5797543\",\"2184943\",\"1028335\",\"1100646\",\"74549\",\"410307\",\"747129\",\"101379\",\"6120267\",\"1537142\",\"4361022\",\"6343669\",\"761063\",\"1857276\",\"6439579\",\"3680984\",\"6317101\",\"605975\",\"2903371\",\"1430713\",\"5451472\",\"3287804\",\"1650907\",\"208824\",\"5709907\",\"117729\",\"6379429\",\"541307\",\"5426356\",\"738279\",\"1552146\",\"1414824\",\"2972946\",\"3176491\",\"2477800\",\"6441648\",\"3849184\",\"109361\",\"6209759\",\"4915161\",\"29005\",\"4292347\",\"2664656\",\"3338594\",\"3634176\",\"4372847\",\"6125082\",\"4909764\",\"1133936\",\"280397\",\"4992928\",\"5307101\",\"2629644\",\"487136\",\"2332818\",\"6399622\",\"147336\",\"5924533\",\"6371941\",\"6129\",\"6186355\",\"2265705\",\"5994360\",\"395801\",\"132007\",\"1109049\",\"1219657\",\"4654899\",\"6263298\",\"6369648\",\"6371757\",\"1785251\",\"2669793\",\"999688\",\"8295\",\"5382649\",\"5846470\",\"906897\",\"5673245\",\"3819118\",\"3243158\",\"2431409\",\"431390\",\"2433501\",\"5913000\",\"5623979\",\"6352070\",\"672255\",\"1908715\",\"3288057\",\"6042030\",\"6132529\",\"6062607\",\"3897906\",\"1412221\",\"3643988\",\"5895026\",\"990396\",\"3527957\",\"3394005\",\"1496371\",\"110786\",\"143990\",\"4509125\",\"1574997\",\"5796966\",\"82534\",\"3284414\",\"2823925\",\"3869078\",\"6286517\",\"2570284\",\"60585\",\"268919\",\"6302321\",\"983609\",\"6107507\",\"1098972\",\"142001\",\"679108\",\"6272905\",\"2125492\",\"4003635\",\"1842159\",\"167701\",\"1756\",\"133775\",\"6255881\",\"6203140\",\"5525798\",\"3065639\",\"6119960\",\"664859\",\"3043278\",\"5852503\",\"255618\",\"1819629\",\"4742256\",\"5732541\",\"3463226\",\"5355440\",\"133787\",\"6007095\",\"2950778\",\"183471\",\"1775471\",\"5896715\",\"2173921\",\"1543461\",\"769926\",\"2580624\",\"6206436\",\"5959770\",\"6244807\",\"3587318\",\"6207570\",\"6171026\",\"5092414\",\"603182\",\"217003\",\"6123277\",\"1454237\",\"6167504\",\"3014675\",\"1287477\",\"4134239\",\"5689077\",\"3777242\",\"2152864\",\"3638177\",\"781591\",\"1269488\",\"626420\",\"5726416\",\"5834489\",\"3354874\",\"1578860\",\"5993022\",\"5491983\",\"2323394\",\"6272431\",\"1397570\",\"2851263\",\"1764426\",\"395832\",\"4674538\",\"4725190\",\"3077553\",\"9373\",\"106895\",\"2077443\",\"194862\",\"6072632\",\"6065398\",\"3093152\",\"4108259\",\"3869402\",\"6058826\",\"33945\",\"4372331\",\"355738\",\"5302101\",\"1745374\",\"5817351\",\"911287\",\"3029587\",\"5470265\",\"2150003\",\"168133\",\"6038073\",\"69314\",\"243475\",\"6026362\",\"75480\",\"3050058\",\"3715142\",\"1760722\",\"569949\",\"4472542\",\"3773684\",\"5518553\",\"3430834\",\"181127\",\"424189\",\"5765701\",\"1084690\",\"3332457\",\"13469\",\"5334479\",\"1163293\",\"1535609\",\"40531\",\"4978971\",\"1688906\",\"1939484\",\"1150742\",\"874377\",\"5754818\",\"3655742\"],\"userIds\":[\"16041239\",\"5012135\"],\"enabled\":true},\"count\":18,\"variation\":0,\"version\":27}]},\"documentation-enable-click-to-edit\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":20,\"variation\":0,\"version\":7}]},\"runtime-5780-dispose-parent-api-list-adapter\":{\"default\":false,\"counters\":[{\"value\":false,\"count\":5,\"variation\":1,\"version\":7}]},\"growth_grw_2063_collection_empty_state\":{\"default\":{\"ldName\":\"off\",\"isExperiment\":false,\"isEnabled\":false,\"experimentEnded\":false},\"counters\":[{\"value\":{\"ldName\":\"experiment-ended\",\"experimentEnded\":true,\"isEnabled\":false,\"isExperiment\":false},\"count\":5,\"variation\":3,\"version\":14}]},\"appux-675-link-unfurling-feature-support\":{\"default\":true,\"counters\":[{\"value\":true,\"count\":18,\"variation\":0,\"version\":6}]},\"appux-675-link-unfurling-max-limit\":{\"default\":1000,\"counters\":[{\"value\":1000,\"count\":18,\"variation\":0,\"version\":5}]},\"documentation-enable-editor-media-upload\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":3,\"variation\":0,\"version\":8}]},\"documentation-enable-drop-paste-upload\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":3,\"variation\":0,\"version\":8}]},\"enable-editor-video-embeds\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":3,\"variation\":0,\"version\":5}]},\"col-177-extended-svg-sanitization-enabled\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":3,\"variation\":0,\"version\":4}]},\"ai-driven-request-documentation\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":36,\"variation\":0,\"version\":15}]},\"ai-driven-global-postbot\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":36,\"variation\":0,\"version\":40}]},\"iam_3432_public_profile_ums\":{\"default\":\"DISABLED\",\"counters\":[{\"value\":\"ENABLED\",\"count\":3,\"variation\":0,\"version\":4}]},\"iam_3432_public_profile_ums_batch_processing\":{\"default\":\"DISABLED\",\"counters\":[{\"value\":\"ENABLED\",\"count\":3,\"variation\":0,\"version\":4}]},\"import_1234_interceptor_agent\":{\"default\":false,\"counters\":[{\"value\":false,\"count\":5,\"variation\":1,\"version\":18}]},\"flow-1440-flows-sidebar-visibility\":{\"default\":false,\"counters\":[{\"value\":true,\"count\":5,\"variation\":0,\"version\":17}]},\"flow-1543-flows-eu-available\":{\"default\":true,\"counters\":[{\"value\":true,\"count\":1,\"variation\":0,\"version\":7}]},\"runtime-4354-collection-environment-sync-timeout\":{\"default\":20000,\"counters\":[{\"value\":20000,\"count\":1,\"variation\":1,\"version\":16}]},\"growth_grw_1682_grid_collection_template_banner\":{\"default\":{\"enabled\":false,\"ldName\":\"off\"},\"counters\":[{\"value\":{\"ldName\":\"variation\",\"enabled\":true},\"count\":1,\"variation\":0,\"version\":6}]},\"import_1311_interceptor_session_on_web\":{\"default\":true,\"counters\":[{\"value\":true,\"count\":5,\"variation\":0,\"version\":11}]},\"import_1209_proxy_ftux_improvements\":{\"default\":true,\"counters\":[{\"value\":true,\"count\":2,\"variation\":0,\"version\":4}]}},\"kind\":\"summary\"}]"
+				},
+				"url": {
+					"raw": "https://events.launchdarkly.com/events/bulk/60645109ece3b60c64ac5e02",
+					"protocol": "https",
+					"host": [
+						"events",
+						"launchdarkly",
+						"com"
+					],
+					"path": [
+						"events",
+						"bulk",
+						"60645109ece3b60c64ac5e02"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://bam.nr-data.net/jserrors/1/NRJS-8482e4e3e1750395f5d?a=771436762&sa=1&v=1.260.1&t=Unnamed%20Transaction&rst=664354&ck=0&s=0&ref=https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "bam.nr-data.net"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "content-type",
+						"value": "text/plain"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Sec-Fetch-Storage-Access",
+						"value": "active"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"xhr\":[{\"params\":{\"method\":\"POST\",\"hostname\":\"bam.nr-data.net\",\"port\":\"443\",\"protocol\":\"https\",\"host\":\"bam.nr-data.net:443\",\"pathname\":\"/jserrors/1/NRJS-8482e4e3e1750395f5d\",\"status\":200},\"metrics\":{\"count\":1,\"txSize\":{\"t\":509},\"rxSize\":{\"t\":24},\"duration\":{\"t\":194},\"cbTime\":{\"t\":0},\"time\":{\"t\":653354}}},{\"params\":{\"method\":\"POST\",\"hostname\":\"bam.nr-data.net\",\"port\":\"443\",\"protocol\":\"https\",\"host\":\"bam.nr-data.net:443\",\"pathname\":\"/events/1/NRJS-8482e4e3e1750395f5d\",\"status\":200},\"metrics\":{\"count\":1,\"txSize\":{\"t\":192},\"rxSize\":{\"t\":24},\"duration\":{\"t\":195},\"cbTime\":{\"t\":0},\"time\":{\"t\":653355}}},{\"params\":{\"hostname\":\"events-am.gw.postman.com\",\"port\":\"443\",\"protocol\":\"https\",\"host\":\"events-am.gw.postman.com:443\",\"pathname\":\"/\",\"method\":\"POST\",\"status\":200},\"metrics\":{\"count\":1,\"txSize\":{\"t\":2937},\"rxSize\":{\"t\":94},\"duration\":{\"t\":618},\"time\":{\"t\":658341}}},{\"params\":{\"method\":\"POST\",\"hostname\":\"bam.nr-data.net\",\"port\":\"443\",\"protocol\":\"https\",\"host\":\"bam.nr-data.net:443\",\"pathname\":\"/ins/1/NRJS-8482e4e3e1750395f5d\",\"status\":204},\"metrics\":{\"count\":1,\"txSize\":{\"t\":1159},\"duration\":{\"t\":250},\"cbTime\":{\"t\":0},\"time\":{\"t\":661342}}},{\"params\":{\"method\":\"POST\",\"hostname\":\"events.launchdarkly.com\",\"port\":\"443\",\"protocol\":\"https\",\"host\":\"events.launchdarkly.com:443\",\"pathname\":\"/events/bulk/60645109ece3b60c64ac5e02\",\"status\":202},\"metrics\":{\"count\":1,\"txSize\":{\"t\":8719},\"duration\":{\"t\":259},\"cbTime\":{\"t\":0},\"time\":{\"t\":661341}}}]}"
+				},
+				"url": {
+					"raw": "https://bam.nr-data.net/jserrors/1/NRJS-8482e4e3e1750395f5d?a=771436762&sa=1&v=1.260.1&t=Unnamed%20Transaction&rst=664354&ck=0&s=0&ref=https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/new&ptid=2bb7c35025da0f57",
+					"protocol": "https",
+					"host": [
+						"bam",
+						"nr-data",
+						"net"
+					],
+					"path": [
+						"jserrors",
+						"1",
+						"NRJS-8482e4e3e1750395f5d"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "771436762"
+						},
+						{
+							"key": "sa",
+							"value": "1"
+						},
+						{
+							"key": "v",
+							"value": "1.260.1"
+						},
+						{
+							"key": "t",
+							"value": "Unnamed%20Transaction"
+						},
+						{
+							"key": "rst",
+							"value": "664354"
+						},
+						{
+							"key": "ck",
+							"value": "0"
+						},
+						{
+							"key": "s",
+							"value": "0"
+						},
+						{
+							"key": "ref",
+							"value": "https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/new"
+						},
+						{
+							"key": "ptid",
+							"value": "2bb7c35025da0f57"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://bam.nr-data.net/events/1/NRJS-8482e4e3e1750395f5d?a=771436762&sa=1&v=1.260.1&t=Unnamed%20Transaction&rst=664355&ck=0&s=0&ref=https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/n",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "bam.nr-data.net"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "content-type",
+						"value": "text/plain"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Sec-Fetch-Storage-Access",
+						"value": "active"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "bel.7;2,,e3z9,h6,,,'POST,5k,'events-am.gw.postman.com:443,'/,29l,2m,1,'0,!!!;2,,e6al,76,,,0,5m,'events.launchdarkly.com:443,'/events/bulk/60645109ece3b60c64ac5e02,6q7,,,3,!!!"
+				},
+				"url": {
+					"raw": "https://bam.nr-data.net/events/1/NRJS-8482e4e3e1750395f5d?a=771436762&sa=1&v=1.260.1&t=Unnamed%20Transaction&rst=664355&ck=0&s=0&ref=https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/new&ptid=2bb7c35025da0f57",
+					"protocol": "https",
+					"host": [
+						"bam",
+						"nr-data",
+						"net"
+					],
+					"path": [
+						"events",
+						"1",
+						"NRJS-8482e4e3e1750395f5d"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "771436762"
+						},
+						{
+							"key": "sa",
+							"value": "1"
+						},
+						{
+							"key": "v",
+							"value": "1.260.1"
+						},
+						{
+							"key": "t",
+							"value": "Unnamed%20Transaction"
+						},
+						{
+							"key": "rst",
+							"value": "664355"
+						},
+						{
+							"key": "ck",
+							"value": "0"
+						},
+						{
+							"key": "s",
+							"value": "0"
+						},
+						{
+							"key": "ref",
+							"value": "https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/new"
+						},
+						{
+							"key": "ptid",
+							"value": "2bb7c35025da0f57"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Fechamento/NotasRecentes?CNPJ=3748&_=1739215708656",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Fechamento/NotasRecentes?CNPJ=3748&_=1739215708656",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Fechamento",
+						"NotasRecentes"
+					],
+					"query": [
+						{
+							"key": "CNPJ",
+							"value": "3748"
+						},
+						{
+							"key": "_",
+							"value": "1739215708656"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/jquery.dataTables.min.js",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/jquery.dataTables.min.js",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Scripts",
+						"DataTables",
+						"jquery.dataTables.min.js"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Fechamento/NotasRecentes?CNPJ=&_=1739215708654",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Fechamento/NotasRecentes?CNPJ=&_=1739215708654",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Fechamento",
+						"NotasRecentes"
+					],
+					"query": [
+						{
+							"key": "CNPJ",
+							"value": ""
+						},
+						{
+							"key": "_",
+							"value": "1739215708654"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Login/Index",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Login/Index",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Login",
+						"Index"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000084602&cnpj=03.984.987/0001-14&tp=1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000084602&cnpj=03.984.987/0001-14&tp=1",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Downloads",
+						"DownloadXml"
+					],
+					"query": [
+						{
+							"key": "Nfe",
+							"value": "000084602"
+						},
+						{
+							"key": "cnpj",
+							"value": "03.984.987/0001-14"
+						},
+						{
+							"key": "tp",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000085966&cnpj=04.416.935/0002-95&tp=1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000085966&cnpj=04.416.935/0002-95&tp=1",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Downloads",
+						"DownloadXml"
+					],
+					"query": [
+						{
+							"key": "Nfe",
+							"value": "000085966"
+						},
+						{
+							"key": "cnpj",
+							"value": "04.416.935/0002-95"
+						},
+						{
+							"key": "tp",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/jquery.dataTables.min.js",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/jquery.dataTables.min.js",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Scripts",
+						"DataTables",
+						"jquery.dataTables.min.js"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/jquery.dataTables.min.js",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/jquery.dataTables.min.js",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Scripts",
+						"DataTables",
+						"jquery.dataTables.min.js"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://events-am.gw.postman.com/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "events-am.gw.postman.com"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"api_key\":\"56d4a7f42486e1c4ec95a892fd96c402\",\"events\":[{\"user_id\":\"40047903\",\"device_id\":\"41d3c618-f96f-4fe7-be0a-90566fee9896\",\"session_id\":1739215056112,\"time\":1739215705367,\"platform\":\"Web\",\"language\":\"pt-BR\",\"ip\":\"$remote\",\"insert_id\":\"dd57ae71-9563-4b03-a6dc-2138e371763b\",\"event_type\":\"[Amplitude] Page Viewed\",\"event_properties\":{\"referrer\":\"https://accounts.google.com/\",\"referring_domain\":\"accounts.google.com\",\"[Amplitude] Page Domain\":\"web.postman.co\",\"[Amplitude] Page Location\":\"https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/new\",\"[Amplitude] Page Path\":\"/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/new\",\"[Amplitude] Page Title\":\"TBE - Bruno\",\"[Amplitude] Page URL\":\"https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/new\",\"user_id\":\"40047903\",\"app_version\":\"11.32.0-250209-2334\",\"release_channel\":\"prod\",\"platform\":\"browser\",\"current_url\":\"workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/request/40047903-5894482b-8732-4dea-82aa-9a0bbff48812\",\"event_source\":\"client_app\",\"team_user_id\":\"40047903\",\"team_id\":null,\"company_size\":0,\"workspace_visibility\":\"personal\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\",\"user_domain_professional\":false,\"user_email_verified\":true,\"[Amplitude] Page Counter\":24,\"exp_growth_grw_837_organize_notifications\":\"variation\",\"exp_growth_grw_1840_grw_1921_no_template_and_quickstart_treatment\":\"role-based-quick-start\",\"exp_growth_289_enable_team_discovery\":\"unassigned\",\"exp_cc-3493-consistent-share-in-workbench-header\":\"true\",\"exp_growth_133_collection_copy_link_button\":\"off\",\"exp_growth_grw_1555_recommended_templates_in_create_collection_dropdown\":\"variant\",\"exp_growth_grw_1682_grid_collection_template_banner\":\"variation\",\"exp_apiclient-336-response-sharing\":\"variation\"},\"event_id\":97,\"library\":\"amplitude-ts/2.7.2\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\",\"user_properties\":{\"app_version\":\"11.32.0-250209-2334\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\",\"exp_growth_grw_837_organize_notifications\":\"variation\",\"exp_growth_grw_1840_grw_1921_no_template_and_quickstart_treatment\":\"role-based-quick-start\",\"exp_growth_289_enable_team_discovery\":\"unassigned\",\"exp_cc-3493-consistent-share-in-workbench-header\":\"true\",\"exp_growth_133_collection_copy_link_button\":\"off\",\"exp_growth_grw_1555_recommended_templates_in_create_collection_dropdown\":\"variant\",\"exp_growth_grw_1682_grid_collection_template_banner\":\"variation\",\"exp_apiclient-336-response-sharing\":\"variation\"}}],\"options\":{},\"client_upload_time\":\"2025-02-10T19:28:27.247Z\"}"
+				},
+				"url": {
+					"raw": "https://events-am.gw.postman.com/",
+					"protocol": "https",
+					"host": [
+						"events-am",
+						"gw",
+						"postman",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/dataTables.bootstrap4.min.js",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/dataTables.bootstrap4.min.js",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Scripts",
+						"DataTables",
+						"dataTables.bootstrap4.min.js"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Faturas/FaturasRecentes?CNPJ=&_=1739215708655",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Faturas/FaturasRecentes?CNPJ=&_=1739215708655",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Faturas",
+						"FaturasRecentes"
+					],
+					"query": [
+						{
+							"key": "CNPJ",
+							"value": ""
+						},
+						{
+							"key": "_",
+							"value": "1739215708655"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000085534&cnpj=07.085.630/0001-55&tp=1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000085534&cnpj=07.085.630/0001-55&tp=1",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Downloads",
+						"DownloadXml"
+					],
+					"query": [
+						{
+							"key": "Nfe",
+							"value": "000085534"
+						},
+						{
+							"key": "cnpj",
+							"value": "07.085.630/0001-55"
+						},
+						{
+							"key": "tp",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Faturas/FaturasRecentes?CNPJ=3748&_=1739215708657",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Faturas/FaturasRecentes?CNPJ=3748&_=1739215708657",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Faturas",
+						"FaturasRecentes"
+					],
+					"query": [
+						{
+							"key": "CNPJ",
+							"value": "3748"
+						},
+						{
+							"key": "_",
+							"value": "1739215708657"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Fechamento",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Fechamento",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Fechamento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/dataTables.bootstrap4.min.js",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/dataTables.bootstrap4.min.js",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Scripts",
+						"DataTables",
+						"dataTables.bootstrap4.min.js"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000052030&cnpj=26.643.937/0002-50&tp=1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000052030&cnpj=26.643.937/0002-50&tp=1",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Downloads",
+						"DownloadXml"
+					],
+					"query": [
+						{
+							"key": "Nfe",
+							"value": "000052030"
+						},
+						{
+							"key": "cnpj",
+							"value": "26.643.937/0002-50"
+						},
+						{
+							"key": "tp",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/dataTables.bootstrap4.min.js",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/dataTables.bootstrap4.min.js",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Scripts",
+						"DataTables",
+						"dataTables.bootstrap4.min.js"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/dataTables.bootstrap4.min.js",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/dataTables.bootstrap4.min.js",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Scripts",
+						"DataTables",
+						"dataTables.bootstrap4.min.js"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://bam.nr-data.net/ins/1/NRJS-8482e4e3e1750395f5d?a=771436762&sa=1&v=1.260.1&t=Unnamed%20Transaction&rst=661342&ck=0&s=0&ref=https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/new&",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "bam.nr-data.net"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "content-type",
+						"value": "text/plain"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Sec-Fetch-Storage-Access",
+						"value": "active"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"ins\":[{\"timestamp\":1739215691366,\"timeSinceLoad\":643.128,\"browserWidth\":2439,\"browserHeight\":863,\"referrerUrl\":\"https://accounts.google.com/\",\"currentUrl\":\"https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/collection/40047903-3f350618-5d40-45a4-859e-840b1f18cd89\",\"pageUrl\":\"https://web.postman.co/\",\"eventType\":\"PageAction\",\"interactionToNextPaint\":136,\"routeName\":\"home.default\",\"routePath\":\"/\",\"userId\":\"40047903\",\"teamId\":\"0\",\"actionName\":\"InitialLoadMetrics\"},{\"timestamp\":1739215704629,\"timeSinceLoad\":656.391,\"browserWidth\":2439,\"browserHeight\":863,\"referrerUrl\":\"https://accounts.google.com/\",\"currentUrl\":\"https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/collection/40047903-3f350618-5d40-45a4-859e-840b1f18cd89\",\"pageUrl\":\"https://web.postman.co/\",\"eventType\":\"PageAction\",\"appVersion\":\"11.32.0-250209-2334\",\"userId\":\"40047903\",\"teamId\":\"0\",\"action\":\"startSession\",\"result\":\"success\",\"sessionId\":\"b514fd32-c6bd-4808-830b-ea1ed9f640be\",\"sessionType\":\"interceptor\",\"sessionName\":\"Interceptor debug session\",\"origin\":\"interceptor-extension\",\"error\":null,\"actionName\":\"captureToolSessionMetrics\"}]}"
+				},
+				"url": {
+					"raw": "https://bam.nr-data.net/ins/1/NRJS-8482e4e3e1750395f5d?a=771436762&sa=1&v=1.260.1&t=Unnamed%20Transaction&rst=661342&ck=0&s=0&ref=https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/new&ptid=2bb7c35025da0f57",
+					"protocol": "https",
+					"host": [
+						"bam",
+						"nr-data",
+						"net"
+					],
+					"path": [
+						"ins",
+						"1",
+						"NRJS-8482e4e3e1750395f5d"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "771436762"
+						},
+						{
+							"key": "sa",
+							"value": "1"
+						},
+						{
+							"key": "v",
+							"value": "1.260.1"
+						},
+						{
+							"key": "t",
+							"value": "Unnamed%20Transaction"
+						},
+						{
+							"key": "rst",
+							"value": "661342"
+						},
+						{
+							"key": "ck",
+							"value": "0"
+						},
+						{
+							"key": "s",
+							"value": "0"
+						},
+						{
+							"key": "ref",
+							"value": "https://web.postman.co/workspace/Bruno~92d434d8-01dd-46cf-871c-786f4eab7705/proxy/capture-requests-sessions-landing-page/new"
+						},
+						{
+							"key": "ptid",
+							"value": "2bb7c35025da0f57"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/jquery.dataTables.min.js",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Scripts/DataTables/jquery.dataTables.min.js",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Scripts",
+						"DataTables",
+						"jquery.dataTables.min.js"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://events.getpostman.com/events",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "events.getpostman.com"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Content-Type",
+						"value": "text/plain"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "eyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjA3Ljc0NVoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InJ1bnRpbWVfcGVyZm9ybWFuY2VfbWV0cmljcyIsInRyYWNlSWQiOiJkMGY4YjYwYy1mYWFhLTQ5NDctODI5Yy01YjExZTA0ZWQ2ZDgiLCJhY3Rpb24iOiJ3b3JrYmVuY2hfZGlkX2NyZWF0ZV9zdGFydCIsIm1ldGEiOnsibG9hZF90aW1lIjo2Mzc5OTJ9LCJsYWJlbCI6InBlcmY6d29ya2JlbmNoIiwiZW50aXR5SWQiOiI0MDA0NzkwMy0zZjM1MDYxOC01ZDQwLTQ1YTQtODU5ZS04NDBiMWYxOGNkODkiLCJlbnRpdHlUeXBlIjoiY29sbGVjdGlvbiIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjA3Ljc0NVoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InJ1bnRpbWVfcGVyZm9ybWFuY2VfbWV0cmljcyIsInRyYWNlSWQiOiJkMGY4YjYwYy1mYWFhLTQ5NDctODI5Yy01YjExZTA0ZWQ2ZDgiLCJhY3Rpb24iOiJ3b3JrYmVuY2hfZGlkX2FjdGl2YXRlIiwibWV0YSI6eyJsb2FkX3RpbWUiOjYzNzk5Mn0sImxhYmVsIjoicGVyZjp3b3JrYmVuY2giLCJlbnRpdHlJZCI6IjQwMDQ3OTAzLTNmMzUwNjE4LTVkNDAtNDVhNC04NTllLTg0MGIxZjE4Y2Q4OSIsImVudGl0eVR5cGUiOiJjb2xsZWN0aW9uIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MDcuNzQ1WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicnVudGltZV9wZXJmb3JtYW5jZV9tZXRyaWNzIiwidHJhY2VJZCI6ImQwZjhiNjBjLWZhYWEtNDk0Ny04MjljLTViMTFlMDRlZDZkOCIsImFjdGlvbiI6IndvcmtiZW5jaF9kaWRfY3JlYXRlX2VuZCIsIm1ldGEiOnsibG9hZF90aW1lIjo2Mzg4MzR9LCJsYWJlbCI6InBlcmY6d29ya2JlbmNoIiwiZW50aXR5SWQiOiI0MDA0NzkwMy0zZjM1MDYxOC01ZDQwLTQ1YTQtODU5ZS04NDBiMWYxOGNkODkiLCJlbnRpdHlUeXBlIjoiY29sbGVjdGlvbiIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjA3Ljc0NVoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6ImNvbGxlY3Rpb24td29ya2JlbmNoIiwiYWN0aW9uIjoibW9yZV9vcHRpb25zIiwibGFiZWwiOiJyZW5hbWUtdG9nZ2xlIiwiZW50aXR5SWQiOiIzZjM1MDYxOC01ZDQwLTQ1YTQtODU5ZS04NDBiMWYxOGNkODkiLCJlbnRpdHlUeXBlIjoiY29sbGVjdGlvbiIsInZhbHVlIjoxLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODowNy43NTNaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJjb2xsZWN0aW9uLW92ZXJ2aWV3LXRlbXBsYXRlIiwiZW50aXR5SWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJhY3Rpb24iOiJ2aWV3ZWQiLCJsYWJlbCI6WyJkZGIxOTU5MS0zMDk3LTQxY2YtODJhZi1jODQyNzNlNTY3MTkiLCJmZTUwNjA5MC1jYTkxLTQzNDAtYmVhOS04MmQyYzNkMmJiOWEiLCJlOWMyOGY0Ny0xMjUzLTQ0YWYtYTJmMy0yMGRjZTRkYTFmMTgiLCI3ODQ3NWQ5Ny05YTM2LTQ3MzEtYWIyNC05YWRmNmE5NGQwZmIiXSwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MDkuNjQzWiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoiY29sbGVjdGlvbi13b3JrYmVuY2giLCJhY3Rpb24iOiJtb3JlX29wdGlvbnMiLCJsYWJlbCI6InJlbmFtZSIsImVudGl0eUlkIjoiM2YzNTA2MTgtNWQ0MC00NWE0LTg1OWUtODQwYjFmMThjZDg5IiwiZW50aXR5VHlwZSI6ImNvbGxlY3Rpb24iLCJ2YWx1ZSI6MSwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MTIuMDI1WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoiYXBwIiwiYWN0aW9uIjoidmlzaWJpbGl0eWNoYW5nZSIsImxhYmVsIjoiaGlkZGVuIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0NVoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDVaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ1WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0NVoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDVaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ1WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0NVoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDVaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ1WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0NVoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDVaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ2WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0NloiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDZaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ2WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0NloiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDZaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ2WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0NloiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDZaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ2WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0N1oiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDdaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ3WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0N1oiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDdaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ3WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0N1oiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDdaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ3WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0N1oiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDdaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ3WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0N1oiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDdaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ3WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0N1oiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDdaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ3WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0N1oiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDdaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ3WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0N1oiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDdaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ3WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0OFoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDhaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ4WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0OFoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDhaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ4WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0OFoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDhaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ4WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0OFoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDhaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ4WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0OFoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDhaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ4WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0OFoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDhaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ4WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0OFoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDhaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ4WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0OFoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDhaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ4WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0OFoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDhaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMDQ4WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoicHJveHktc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZCIsImxhYmVsIjoiYXBwbGllZCIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjA0OFoiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4wNDhaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktbWV0aG9kIiwibGFiZWwiOiJhcHBsaWVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMTA3WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImNhdGVnb3J5IjoiaW50ZXJjZXB0b3Itc2Vzc2lvbiIsImFjdGlvbiI6ImZpbHRlci1yZXF1ZXN0LWJ5LW1ldGhvZC1leHRlbnNpb24iLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4xMDdaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJpbnRlcmNlcHRvci1zZXNzaW9uIiwibGFiZWwiOiJjbGVhcmVkIiwiYWN0aW9uIjoiZmlsdGVyLWJ5LXVybC1leHRlbnNpb24iLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNS4yOTdaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJpbnRlcmNlcHRvci1zZXNzaW9uIiwiYWN0aW9uIjoic2Vzc2lvbi1zdGFydGVkIiwibGFiZWwiOiJpbnRlcmNlcHRvci1leHRlbnNpb24iLCJlbnRpdHlJZCI6ImI1MTRmZDMyLWM2YmQtNDgwOC04MzBiLWVhMWVkOWY2NDBiZSIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI1LjI5N1oiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6ImludGVyY2VwdG9yIiwiYWN0aW9uIjoiZW5hYmxlX3JlcXVlc3RfY2FwdHVyZSIsImxhYmVsIjoiaW50ZXJjZXB0b3ItZXh0ZW5zaW9uIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQp7InR5cGUiOiJldmVudHMtZ2VuZXJhbCIsImluZGV4VHlwZSI6ImNsaWVudC1ldmVudHMiLCJlbnYiOiJwcm9kdWN0aW9uIiwidXNlcklkIjoiNDAwNDc5MDMiLCJ0ZWFtSWQiOiIwIiwicHJvcGVydHlWZXJzaW9uIjoiMTEuMzIuMC0yNTAyMDktMjMzNDtDaHJvbWU7MTMzLjAuMC4wIiwicHJvcGVydHkiOiJwb3N0bWFuLXdlYiIsInRpbWVzdGFtcCI6IjIwMjUtMDItMTBUMTk6Mjg6MjUuMzM0WiIsInNlc3Npb25JZCI6ImI0YzcwMmMxLWYwYWItNGYzNy04NDBjLWUzZGYwZTZkOWM2YSIsImFjdGlvbiI6Im5ldy10YWItb3BlbiIsImxhYmVsIjoibmV3LXRhYiIsImVudGl0eUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1IiwidmFsdWUiOjYsImNhdGVnb3J5Ijoid29ya2JlbmNoIiwidHJhY2VJZCI6Ijk2ZWUyNjA5LThkNTMtNDhmYS1hYmM1LTA5NjM1M2UwNTExNyIsIndvcmtzcGFjZUlkIjoiOTJkNDM0ZDgtMDFkZC00NmNmLTg3MWMtNzg2ZjRlYWI3NzA1Iiwid29ya3NwYWNlVHlwZSI6InBlcnNvbmFsIn0KeyJ0eXBlIjoiZXZlbnRzLWdlbmVyYWwiLCJpbmRleFR5cGUiOiJjbGllbnQtZXZlbnRzIiwiZW52IjoicHJvZHVjdGlvbiIsInVzZXJJZCI6IjQwMDQ3OTAzIiwidGVhbUlkIjoiMCIsInByb3BlcnR5VmVyc2lvbiI6IjExLjMyLjAtMjUwMjA5LTIzMzQ7Q2hyb21lOzEzMy4wLjAuMCIsInByb3BlcnR5IjoicG9zdG1hbi13ZWIiLCJ0aW1lc3RhbXAiOiIyMDI1LTAyLTEwVDE5OjI4OjI3LjI2M1oiLCJzZXNzaW9uSWQiOiJiNGM3MDJjMS1mMGFiLTRmMzctODQwYy1lM2RmMGU2ZDljNmEiLCJjYXRlZ29yeSI6InByb3h5LXNlc3Npb24iLCJhY3Rpb24iOiJmaWx0ZXItcmVxdWVzdC1ieS1tZXRob2QiLCJsYWJlbCI6ImFwcGxpZWQiLCJ3b3Jrc3BhY2VJZCI6IjkyZDQzNGQ4LTAxZGQtNDZjZi04NzFjLTc4NmY0ZWFiNzcwNSIsIndvcmtzcGFjZVR5cGUiOiJwZXJzb25hbCJ9CnsidHlwZSI6ImV2ZW50cy1nZW5lcmFsIiwiaW5kZXhUeXBlIjoiY2xpZW50LWV2ZW50cyIsImVudiI6InByb2R1Y3Rpb24iLCJ1c2VySWQiOiI0MDA0NzkwMyIsInRlYW1JZCI6IjAiLCJwcm9wZXJ0eVZlcnNpb24iOiIxMS4zMi4wLTI1MDIwOS0yMzM0O0Nocm9tZTsxMzMuMC4wLjAiLCJwcm9wZXJ0eSI6InBvc3RtYW4td2ViIiwidGltZXN0YW1wIjoiMjAyNS0wMi0xMFQxOToyODoyNy4yNjNaIiwic2Vzc2lvbklkIjoiYjRjNzAyYzEtZjBhYi00ZjM3LTg0MGMtZTNkZjBlNmQ5YzZhIiwiY2F0ZWdvcnkiOiJwcm94eS1zZXNzaW9uIiwiYWN0aW9uIjoiZmlsdGVyLXJlcXVlc3QtYnktdXJsLWNvbnRhaW5zIiwibGFiZWwiOiJjbGVhcmVkIiwid29ya3NwYWNlSWQiOiI5MmQ0MzRkOC0wMWRkLTQ2Y2YtODcxYy03ODZmNGVhYjc3MDUiLCJ3b3Jrc3BhY2VUeXBlIjoicGVyc29uYWwifQo="
+				},
+				"url": {
+					"raw": "https://events.getpostman.com/events",
+					"protocol": "https",
+					"host": [
+						"events",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000085504&cnpj=04.416.923/0002-60&tp=1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "portalcliente.tbenergia.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "https://portalcliente.tbenergia.com.br/Downloads/DownloadXml?Nfe=000085504&cnpj=04.416.923/0002-60&tp=1",
+					"protocol": "https",
+					"host": [
+						"portalcliente",
+						"tbenergia",
+						"com",
+						"br"
+					],
+					"path": [
+						"Downloads",
+						"DownloadXml"
+					],
+					"query": [
+						{
+							"key": "Nfe",
+							"value": "000085504"
+						},
+						{
+							"key": "cnpj",
+							"value": "04.416.923/0002-60"
+						},
+						{
+							"key": "tp",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
