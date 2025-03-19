@@ -1,0 +1,6 @@
+*.env
+config.json
+*secrets*
+Email/HML/outlook*.py
+Email/outlook.py
+Email/RE_outlook.py
